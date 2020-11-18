@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".multilevel">
+
+    <TextView
+        android:id="@+id/mlt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:background="@drawable/edittext"
+        android:layout_marginTop="20sp"
+        android:text="MULTILEVEL"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:textColor="#000000"
+        />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/mlt"
+        >
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+
+            <TextView
+                android:id="@+id/mlt1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20sp"
+                android:text="@string/mlt1"
+                android:textSize="20sp"
+
+                android:typeface="serif"
+                android:textColor="#000000"/>
+            <TextView
+                android:id="@+id/mlt2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20sp"
+                android:text="@string/mlt2"
+                android:textSize="20sp"
+
+                android:typeface="serif"
+                android:layout_below="@+id/mlt1"
+                android:textColor="#000000"/>
+            <TextView
+                android:id="@+id/mlt3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20sp"
+                android:text="@string/mlt3"
+                android:textSize="20sp"
+
+                android:typeface="serif"
+                android:layout_below="@+id/mlt2"
+                android:textColor="#000000"/>
+            <LinearLayout
+                android:id="@id/lml"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_below="@+id/mlt3">
+
+                <Button
+                    android:id="@+id/button42mlt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5sp"
+                    android:layout_marginStart="50dp"
+                    android:background="@drawable/copyyy"
+                    android:textAlignment="center"
+                    android:textColor="#ffe8ed"
+                    android:textSize="13sp"
+                    android:layout_weight="1"/>
+
+                <Button
+                    android:id="@+id/button41mlt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5sp"
+                    android:background="@drawable/tryyy"
+                    android:onClick="browser"
+                    android:layout_marginStart="80dp"
+                    android:textAlignment="center"
+                    android:textColor="#ffe8ed"
+                    android:textSize="13sp"
+                    android:layout_weight="1"/>
+            </LinearLayout>
+            <TextView
+                android:id="@+id/mlt4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20sp"
+                android:text="@string/assignbo"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:typeface="serif"
+                android:layout_below="@+id/lml" />
+
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

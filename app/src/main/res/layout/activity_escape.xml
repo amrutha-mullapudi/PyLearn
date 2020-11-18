@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".escape">
+
+    <TextView
+        android:id="@+id/escape"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:background="@drawable/edittext"
+        android:text="@string/escapes"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:textColor="#000000"
+       />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/escape"
+        >
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+            <TextView
+                android:id="@+id/escapeb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20sp"
+                android:text="@string/escapeb"
+                android:textSize="20sp"
+
+                android:typeface="serif"
+                android:textColor="#000000"/>
+            <ImageView
+                android:id="@+id/image3"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="40sp"
+                app:srcCompat="@drawable/escape"
+                tools:ignore="ContentDescription"
+                android:layout_below="@+id/escapeb"/>
+            <TextView
+                android:id="@+id/escapend"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20sp"
+                android:text="@string/esend"
+                android:textSize="35sp"
+                android:textStyle="bold"
+                android:typeface="monospace"
+                android:layout_below="@+id/image3"/>
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

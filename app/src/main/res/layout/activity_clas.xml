@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".clas">
+
+    <TextView
+        android:id="@+id/clas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:background="@drawable/edittext"
+        android:layout_marginTop="20sp"
+        android:text="@string/clas"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:textColor="#000000"
+       />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/clas"
+        >
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/cl1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20sp"
+                android:text="@string/cl1"
+                android:textSize="20sp"
+
+                android:typeface="serif"
+                android:textColor="#000000"/>
+            <TextView
+                android:id="@+id/cl2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20sp"
+                android:text="@string/cl2"
+                android:textSize="20sp"
+
+                android:typeface="serif"
+                android:textColor="#000000"
+                android:layout_below="@+id/cl1"/>
+            <TextView
+                android:id="@+id/cl2a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20sp"
+                android:text="@string/cl2a"
+                android:textSize="20sp"
+
+                android:typeface="serif"
+                android:textColor="#000000"
+                android:layout_below="@+id/cl2"/>
+
+            <TextView
+                android:id="@+id/cl2b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20sp"
+                android:text="@string/cl2b"
+                android:textSize="20sp"
+
+                android:typeface="serif"
+                android:textColor="#000000"
+                android:layout_below="@+id/cl2a"/>
+            <LinearLayout
+                android:id="@id/lacl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_below="@+id/cl2b">
+
+                <Button
+                    android:id="@+id/button42cl"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5sp"
+                    android:layout_marginStart="50dp"
+                    android:background="@drawable/copyyy"
+                    android:textAlignment="center"
+                    android:textColor="#ffe8ed"
+                    android:textSize="13sp"
+                    android:layout_weight="1"/>
+
+                <Button
+                    android:id="@+id/button41cl"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5sp"
+                    android:background="@drawable/tryyy"
+                    android:onClick="browser"
+                    android:layout_marginStart="80dp"
+                    android:textAlignment="center"
+                    android:textColor="#ffe8ed"
+                    android:textSize="13sp"
+                    android:layout_weight="1"/>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/cl2c"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20sp"
+                android:text="@string/cl2c"
+                android:textSize="20sp"
+                android:typeface="serif"
+                android:textColor="#000000"
+                android:layout_below="@+id/lacl"/>
+
+
+            <TextView
+                android:id="@+id/cl3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20sp"
+                android:text="@string/cl3"
+                android:textSize="20sp"
+
+                android:typeface="serif"
+                android:textColor="#000000"
+                android:layout_below="@+id/cl2c"/>
+            <TextView
+                android:id="@+id/cl4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20sp"
+                android:text="@string/cl4"
+                android:textSize="20sp"
+
+                android:typeface="serif"
+                android:textColor="#000000"
+                android:layout_below="@+id/cl3"/>
+            <LinearLayout
+                android:id="@id/lacl1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_below="@+id/cl4">
+
+                <Button
+                    android:id="@+id/button42cl1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5sp"
+                    android:layout_marginStart="50dp"
+                    android:background="@drawable/copyyy"
+                    android:textAlignment="center"
+                    android:textColor="#ffe8ed"
+                    android:textSize="13sp"
+                    android:layout_weight="1"/>
+
+                <Button
+                    android:id="@+id/button41cl1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5sp"
+                    android:background="@drawable/tryyy"
+                    android:onClick="browser"
+                    android:layout_marginStart="80dp"
+                    android:textAlignment="center"
+                    android:textColor="#ffe8ed"
+                    android:textSize="13sp"
+                    android:layout_weight="1"/>
+            </LinearLayout>
+            <TextView
+                android:id="@+id/cl5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20sp"
+                android:text="@string/cl5"
+                android:textSize="20sp"
+
+                android:typeface="serif"
+                android:textColor="#000000"
+                android:layout_below="@+id/lacl1"/>
+            <TextView
+                android:id="@+id/cl6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20sp"
+                android:text="@string/cl6"
+                android:textSize="20sp"
+
+                android:typeface="serif"
+                android:textColor="#000000"
+                android:layout_below="@+id/cl5"/>
+            <TextView
+                android:id="@+id/cl7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20sp"
+                android:text="@string/cl7"
+                android:textSize="20sp"
+
+                android:typeface="serif"
+                android:textColor="#000000"
+                android:layout_below="@+id/cl6"/>
+
+
+
+            <TextView
+                android:id="@+id/c"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20sp"
+                android:text="@string/assignbo"
+                android:textSize="20sp"
+                android:typeface="serif"
+                android:layout_below="@+id/cl7" />
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

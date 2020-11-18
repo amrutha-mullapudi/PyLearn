@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".comparison">
+
+    <TextView
+        android:id="@+id/compa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:background="@drawable/edittext"
+        android:layout_marginTop="20sp"
+        android:text="@string/compa"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:textColor="#000000"
+        />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/compa"
+        >
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+            <TextView
+                android:id="@+id/compab"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20sp"
+                android:text="@string/compab"
+                android:textSize="20sp"
+
+                android:typeface="serif"
+                android:textColor="#000000"/>
+            <TextView
+                android:id="@+id/compact"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20sp"
+                android:text="@string/com"
+                android:textSize="20sp"
+
+                android:typeface="serif"
+                android:textColor="#000000"
+                android:layout_below="@+id/compab" />
+
+            <TextView
+                android:id="@+id/compad"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20sp"
+                android:text="@string/compad"
+                android:textSize="20sp"
+
+                android:typeface="serif"
+                android:textColor="#000000"
+                android:layout_below="@+id/compact"/>
+            <LinearLayout
+                android:id="@id/compae"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_below="@+id/compad" >
+
+                <Button
+                    android:id="@+id/button42com"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5sp"
+                    android:layout_marginStart="50dp"
+                    android:background="@drawable/copyyy"
+
+                    android:textColor="#ffe8ed"
+                    android:textSize="13sp"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="50dp" />
+
+                <Button
+                    android:id="@+id/button41com"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5sp"
+                    android:background="@drawable/tryyy"
+                    android:onClick="browser"
+                    android:layout_marginStart="80dp"
+
+                    android:textColor="#ffe8ed"
+                    android:textSize="13sp"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="80dp" />
+            </LinearLayout>
+
+
+
+            <TextView
+                android:id="@+id/compat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20sp"
+                android:text="@string/assignbo"
+                android:textSize="20sp"
+                android:typeface="serif"
+                android:layout_below="@+id/compae"
+                />
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

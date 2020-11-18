@@ -1,0 +1,810 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Pylearn</string>
+    <string name="whypython"><![CDATA[\tWHY PYTHON?\t\t\t\t\t\t\t\t\t]]></string>
+    <string name="des"><![CDATA[ 1.\tPython has the ability to easily work on different platforms.\n\n
+2.\tPython has a simple syntax similar to the English language.\n\n
+3.\tPython has syntax that allows developers to write programs with fewer lines than some other programming languages.\n\n
+4.\tPython runs on an interpreter system, meaning that code can be executed as soon as it is written. This means that prototyping can be very quick.\n\n
+5.\tPython can be treated in a procedural way, an object-orientated way or a functional way.]]></string>
+    <string name="whatpython">WHAT CAN PYTHON DO ?</string>
+    <string name="descriptive">1.\tPython can be used on a server to create WEB APPLICATIONS.\n\n
+2.\tCan be used alongside software to create workflows.\n\n
+3.\tConnects to database systems. It can also read and modify files.\n\n
+4.\tPython can be used to handle big data and perform complex mathematics.\n\n
+5.\tPython can be used for rapid prototyping, or for production-ready software development.</string>
+    <string name="syntax">SYNTAX AND COMMENTS</string>
+    <string name="syntaxhead">SYNTAX</string>
+    <string name="syntaxdes">\t\t#printing hello world\n
+    \t\tprint(\"Hello,World!\")
+    </string>
+    <string name="comment">COMMENTS</string>
+    <string name="comments_description" tools:ignore="StringEscaping">\t\t 1) SINGLE LINE COMMENTS \n\n \t\t -&gt;Single line comments are denoted by #\n \t\tProgram :\n
+    \t\t #This is a comment in python\n \t\t print(\&quot;Hello,World!\&quot;)\n\n\n \t\t 2) MULTILINE COMMENTS \n\n \t\t -> Multiline comments are denoted by &quot;&quot;&quot;(triple quotes)\n\t\t Program :\n
+    \t\t &quot;&quot;&quot;This is a comment
+written in
+more than just one line&quot;&quot;&quot;\n\t\tprint(\"Hello,World!\")\n\n\n
+</string>
+    <string name="variable">VARIABLES</string>
+    <string name="variablehead">-->Variables are containers for storing data values.\n-->Python has \"NO\" command for declaring a variable.\n-->A variable is created the moment you first assign a value to it.</string>
+    <string name="rulehead">RULES FOR PYTHON VARIABLES:</string>
+    <string name="rulebody">1.Must start with a letter or the underscore character\n
+    2.Cannot start with a number.\n3.Can only contain alpha-numeric characters and underscores (A-z, 0-9, and _ )\n4.Case-sensitive (age, Age and AGE are three different variables)</string>
+    <string name="examplevar">EXAMPLE PROGRAMS</string>
+    <string name="exm2">var1=15\nvar2=123.456\nvar3=\"Hello pylearn\" \nprint(var1,\'\',var2,\'\',var3)</string>
+    <string name="output1">OUTPUT:\n 15\t\t\t123.45\t\t\tHello pylearn</string>
+    <string name="exm1">#Legal variable names:\n
+myvar = "John"\n
+my_var = "John"\n
+_my_var = "John"\n
+myVar = "John"\n
+MYVAR = "John"\n
+myvar2 = "John"\n\n
+
+#Illegal variable names:\n
+2myvar = "John"\n
+my-var = "John"\n
+my var = "John"\n\n\nPROGRAM 1:
+    </string>
+    <string name="exm3p">PROGRAM 2:</string>
+    <string name="exm3">x = \"Python is \"\ny = \"awesome\"\nz =  x + y\nprint(z)</string>
+    <string name="exm3o">OUTPUT:\nPython is awesome</string>
+    <string name="datatype">DATA TYPES</string>
+    <string name="datatypeb">->Python has the following data types built-in by default, in these categories:\n\n->Text:\tstr\n->Numeric:\tint,float,complex\n->Sequence:\tlist,tuple,range\n->Mapping:\tdict\n->Set:\tset,frozenset\n->Boolean:\tbool\n->Binary: bytes\n</string>
+    <string name="numbers">NUMBERS</string>
+    <string name="booleans">BOOLEAN</string>
+    <string name="strings">STRINGS</string>
+    <string name="list">LISTS</string>
+    <string name="tuple">TUPLES</string>
+    <string name="sets">SETS</string>
+    <string name="dictionaries">DICTIONARIES</string>
+    <string name="datatypend">\n\n\n</string>
+    <string name="number">NUMBERS</string>
+    <string name="numberhead">There are three numeric types in Python:\n\n1.int\n2.float\n3.complex</string>
+    <string name="type">Type() and IsInstance():</string>
+    <string name="typebody">1.We can use the \"type()\" function to know which class a variable or a value belongs to.\n\n2.The \"isinstance()\" function is used to check if an object belongs to a particular class.</string>
+    <string name="ints"><big>Integer:</big>\n\n->PROGRAM:</string>
+    <string name="intb">x = 1\ny = 356562\nz = -3255522\nprint(type(x))\nprint(type(y))\nprint(type(z))</string>
+    <string name="outnum1">OUTPUT:\nclass \'int\'\nclass \'int\'\nclass \'int\'</string>
+    <string name="floats"><big>Float:</big>\n\n->PROGRAM:</string>
+    <string name="floatb">x = 1.10\nz = -35.59\nprint(type(x))\nprint(type(z))</string>
+    <string name="outnum2">OUTPUT:\nclass \'float\'\nclass \'float\'</string>
+    <string name="coms"><big>Complex Number:</big>\n\n->PROGRAM:</string>
+    <string name="complexb">x = 3+5j\ny = 5j\nz = -5j\nprint(type(x))\nprint(type(y))\nprint(type(z))</string>
+    <string name="outnum3">OUTPUT:\nclass\'complex\'\nclass\'complex\'\nclass\'complex\'</string>
+    <string name="boo">BOOLEAN</string>
+    <string name="bbody">1.In programming you often need to know if an expression is \"True\" or False.\n\n
+
+2.You can evaluate any expression to get one of two answers, \"True\" or \"False\".
+   </string>
+    <string name="boolf"><big>bool() function:</big>\n\nPROGRAM 1:</string>
+    <string name="bfunb">#most values are true\nbool(\"abc\")\nbool(123)\nbool([\"apple\", \"cherry\", \"banana\"])</string>
+    <string name="outb1">OUTPUT:\nTrue\nTrue\nTrue</string>
+    <string name="bfunc"><big>PROGRAM:</big>\n#most values are false\nbool(False)\nbool(None)\nbool(0)\nbool(\"\")\nbool(())\nbool([])\nbool({})</string>
+    <string name="outb2">OUTPUT:\n\False\nFalse\nFalse\nFalse\nFalse\nFalse\nFalse
+</string>
+    <string name="stringss">STRINGS</string>
+    <string name="strs">-->String literals in python are surrounded by either single (\' \'),or double (\" \") marks.\n\n-->Strings in Python are \"ARRAYS\" of bytes representing unicode characters.\n\n-->Strings can be:\n1.single or multiline\n2.Sliced\n3.modified using inbuilt methods\n4.concatenated\n5.formatted.</string>
+    <string name="strl">STRING LITERALS</string>
+    <string name="slice">SLICING</string>
+    <string name="strmet">string methods</string>
+    <string name="escape">escape characters</string>
+    <string name="end">\n\n\n</string>
+    <string name="strliteral">STRING LITERALS</string>
+    <string name="sbody"><big>1.STRING</big>\n\n->PROGRAM:</string>
+    <string name="str1">print(\"Python\")</string>
+    <string name="out1">OUTPUT:\nPython</string>
+    <string name="sbody2"><big>2.ASSIGN STRING TO VARIABLE:</big>\n\n->PROGRAM:</string>
+    <string name="str2">a=\"Hello World\"\nprint(a)</string>
+    <string name="out2">OUTPUT:\nHello </string>
+    <string name="sbody3"><big>3.MULTILINE STRINGS</big>\n\nPROGRAM:</string>
+    <string name="str3">\"\"\"This is a multiline\nstring,it can be denoted\nusing triple double quotes\nor triple single quotes\"\"\"</string>
+    <string name="out3">OUTPUT:\nThis is a multiline\nstring,it can be denoted\nusing triple double quotes\nor triple single quotes\n\n->Output not shown as \"\"\" can be written as comments</string>
+    <string name="slicing">SCLICING </string>
+    <string name="slicingb">->You can return a range of characters by using the slice syntax.\n\n->Specify the start index and the end index, separated by a colon, to return a part of the string.</string>
+    <string name="sliceb"><big>1.SLICING OPERATOR :</big>\n\n->PROGRAM:</string>
+    <string name="sl1">b=\"Easy Python!\"\nprint(b[2:5])</string>
+    <string name="outsl1">OUTPUT:\nsy</string>
+    <string name="slp">->PROGRAM:</string>
+    <string name="sl2">str=\'WELCOME TO BVRIT\'\nprint(str)\nprint(str[0])\n # Prints 1st character\nprint(str[1:5])\n # Prints from 3rd to 5th character\nprint(str[2:])\n # Prints starting from 3rd character\nprint(str[:4])</string>
+    <string name="outsl2">OUTPUT:\nWELCOME TO BVRIT\nW\nELCO\nLCOME TO BVRIT\nWELC WELCOME TO BVR</string>
+    <string name="slicec"><big>2.NEGATIVE INDEXING : </big>\n\nStarting the count from the \"END\" of the string\n\n->PROGRAM:</string>
+    <string name="sl3">b=\"Hello, World!\"\nprint(b[-5:-2])</string>
+    <string name="outsl3">OUTPTUT:\norl</string>
+    <string name="escapes">ESCAPE CHARACTER</string>
+    <string name="escapeb">1.To insert characters that are \"illegal\" in a string, use an escape character.\n\n
+
+2.An escape character is a backslash \ followed by the character you want to insert.\n\n
+
+3.An example of an illegal character is a double quote inside a string that is surrounded by double quotes:</string>
+    <string name="esend">\n\n\n</string>
+    <string name="strmethod">STRING METHODS</string>
+    <string name="strb">1.Python has a set of built-in methods that you can use on strings.\n\n
+
+2.All string methods returns new values. They do not change original string\n\n\nSOME OF THE METHODS MENTIONED BELOW:</string>
+    <string name="ops">OPERATORS</string>
+    <string name="op1">arithmetic</string>
+    <string name="op2">Assignment </string>
+    <string name="op3">Comparison </string>
+    <string name="op4">Logical</string>
+    <string name="op5">Identity </string>
+    <string name="op6">Membership</string>
+    <string name="op7">Bitwise</string>
+    <string name="arith">ARITHMETIC</string>
+    <string name="arithb">->Arithmetic operators are used to perform mathematical operations like addition, subtraction, multiplication, etc.</string>
+    <string name="arithbo"><big>->PROGRAM:</big>\nx = 15\ny = 4\nprint(\'x + y =\',x+y)\nprint(\'x - y =\',x-y)\nprint(\'x * y =\',x*y)\nprint(\'x / y =\',x/y)\nprint(\'x // y =\',x//y)\nprint(\'x ** y =\',x**y)</string>
+    <string name="outar"><big>OUTPUT:</big>\nx + y = 19\n
+x - y = 11\n
+x * y = 60\n
+x / y = 3.75\n
+x // y = 3\n
+x ** y = 50625
+</string>
+    <string name="assign">ASSIGNMENT</string>
+    <string name="assignb">->Assignment operators are used to assign values to variables.\n\n</string>
+    <string name="assibo"><big>->PROGRAM:</big>\nx=5\n\tx = x + 3\n
+	x = x - 3\n
+	x = x * 3\n
+	x = x / 3	\n
+	x = x % 3	\n
+	x = x // 3	\n
+	x = x ** 3	\n
+	x = x &amp; 3	\n
+            x = x | 3</string>
+    <string name="outasign"><big>OUTPUT:</big>\n8\n2\n15\n1.6666666666666667\n2\n1\n125\n1\n7</string>
+    <string name="assignbo">\n\n\n</string>
+    <string name="compa">COMPARISON</string>
+    <string name="compab">->Comparison operators are used to compare values.\n-> It returns either True or False according to the condition.\n\n
+        <big>->PROGRAM:</big></string>
+    <string name="com">x = 10\ny = 12\nprint(\'x > y is\',x>y)\nprint(\'x &lt; y is\',x &lt;y)\nprint(\'x == y is\',x==y)\nprint(\'x != y is\',x!=y)\nprint(\'x >= y is\',x>=y)\nprint(\'x &lt;=y is\',x &lt;=y)</string>
+    <string name="compad"><big>OUTPUT:</big>\nx > y is False\nx &lt; y is True\nx == y is False\nx != y is True\nx >= y is False\nx &lt;= y is True</string>
+    <string name="logic">LOGICAL</string>
+    <string name="logicb">->Logical operators are the and, or, not operators.\n\n
+        <big>->PROGRAM:</big></string>
+    <string name="logicc">x = True\ny = False\nprint(\'x and y is\',x and y)\nprint(\'x or y is\',x or y)\nprint(\'not x is\',not x)</string>
+    <string name="logicd"> <big>OUTPUT:</big>\nx and y is False\nx or y is True\nnot x is False</string>
+    <string name="iden">IDENTITY</string>
+    <string name="idenb">->Identity operators are used to compare the objects, not if they are equal, but if they are actually the same object, with the same memory location\n\n
+        <big>->PROGRAM:</big></string>
+    <string name="idenc">x = [\"bvrit\", \"narsapur\"]\ny = [\"bvrit\", \"narsapur\"]\nz = x\nprint(x is z)\nprint(x is y)\nprint(x == y)</string>
+    <string name="idend"> <big>OUTPUT:</big>\nTrue\nFalse\nTrue</string>
+    <string name="member">MEMBERSHIP</string>
+    <string name="memberb">->Membership operators are used to test if a sequence is presented in an object.\n\nA Membership Operator in Python can be defined as being an operator that is used to validate the membership of a value. This operator is used to test memberships in variables such as strings, integers as well as tuples.\n\nIn Operator\n\nNot In Operator\n\nIs Operator</string>
+    <string name="bit">BITWISE</string>
+    <string name="bitb"><![CDATA[->Bitwise operators are used to compare (binary) numbers\n\nThe operators consist of:\n\n\t|\t\tBitwise OR\n\n\t&\t\tBitwise AND\n\n\t~\t\tBitwise NOT\n\n\t^\t\tBitwise XOR\n\n\t>>\t\tBitwise Right Shift\n\n\t<<\t\tBitwise Left Shift]]></string>
+    <string name="conditional">CONDITIONAL STATEMENTS</string>
+    <string name="conditionalb">->A programs control flow is the order in which the programs code executes.\n->The control flow of a Python program is regulated by conditional statements, loops, and function calls.\n-> Raising and handling exceptions also affects control flow.\n\n<big>IDENTATION:</big>\n->Python relies on indentation (whitespace at the beginning of a line) to define scope in the code.\n-> Other programming languages often use curly-brackets for this purpose.</string>
+    <string name="c1">IF-ELSE</string>
+    <string name="c2">IF-ELSE-IF</string>
+    <string name="c3">NESTED IF</string>
+    <string name="ifs">IF-ELSE</string>
+    <string name="ifb">->Decision making is required when we want to execute a code only if a certain condition is satisfied.\n1.An \"if statement\" is written by using the if keyword.\n2.The else keyword catches anything which isn\'t caught by the preceding conditions.\n\n
+        <big>Syntax :</big>\nif(condition):\n
+      \t\t\t\tIndented statement block when TRUE\n
+else:\n
+     \t\t\t\tIndented statement when FALSE\n\n\n
+
+
+        <big>PROGRAM 1:</big></string>
+    <string name="ifc">n=int(input(\"Enter Number\"))\nif \t n>0:\n\t\t\t\tprint(n,\"Positive\")\nelse:\n\t\t\t\tprint(n,\"Negative\")</string>
+    <string name="ifd"><big>OUTPUT:</big>\nEnter Number 12 \n12 Positive \nEnter Number-11\n-11 Negative</string>
+    <string name="ifee"><big>PROGRAM 2:\teven or odd</big></string>
+    <string name="iff">a = 20\nif \t a%2==0:\n\t\t\t\tprint(\"even number\")\nelse:\n\t\t\t\tprint(\"odd number\")</string>
+    <string name="ifg"><big>OUTPUT:</big>\neven number</string>
+    <string name="iffh">For more info:</string>
+    <string name="iffi"><a href="https://www.programiz.com/python-programming/if-elif-else">WEB INFO</a></string>
+    <string name="iffj"><a href="https://www.youtube.com/watch?v=nMEFZ6TvkDA">YOUTUBE</a></string>
+    <string name="ife">IF-ELIF-ELSE</string>
+    <string name="ifeb">->The elif keyword is pythons way of saying \"if the previous conditions were not true, then try this condition\".\n\n
+       <big>Syntax:</big>\nif(Condition1):\n
+      \t\t\t\tIndented statement block for Condition1\n
+elif(Condition2):\n
+       \t\t\t\tIndented statement block for Condition2\n
+else:\n
+       \t\t\t\tAlternate statement block if all condition check above fails\n\n
+        <big>PROGRAM :</big></string>
+    <string name="ifj">a = 20\nb = 10\nif\tb > a:\n\t\t\t\tprint(\"b is greater than a\")\nelif \ta == b:\n\t\t\t\tprint(\"a and b are equal\")\nelse:\n\t\t\t\tprint(\"a is greater than b\")</string>
+    <string name="ifk"><big>OUTPUT:</big>\na is greater than b</string>
+    <string name="ifl"><big>PROGRAM :</big></string>
+    <string name="ifm">theory = 60\npractical = 20\nif\t(theory > 50):\n\t\t\t\tprint(\"Please check the input score for \'Theory\'.\")\nelif\t(practical > 50):\n\t\t\t\tprint(\"Please check the input score for \'Practical\'.\")\nelse:\n\t\t\t\tprint(\"Score validated. Your total is: \",theory + practical)</string>
+    <string name="ifn"><big>OUTPUT:</big>\nPlease check the input score for \'Theory\'.
+    </string>
+    <string name="ifq"><a href="https://www.youtube.com/watch?v=OT0HogTdqd8">YOUTUBE</a></string>
+    <string name="nested">NESTED-IF-ELSE</string>
+    <string name="nestedb"> ->if-elif-else statement inside another if-elif-else statement,is called nesting.\n->Any number of these statements can be nested inside one another.\n
+    ->INDENTATION is the only way to figure out the level of nesting in python.\n\n
+    <big>Syntax:</big> \nif\t(Condition 1):\n
+      \t\t\t\tif\t( Condition 2):\n
+        \t\t\t\t\t\t\tIndented statement\n
+        \t\t\t\telse:\n
+        \t\t\t\t\t\t\tIndented statement\n
+else:\n
+       \t\t\t\tstatement block \n\n
+        <big>PROGRAM :</big></string>
+    <string name="n1">n=10\nif\tn>=0:\n\t\t\t\tif n==0:\n\t\t\t\t\t\t\tprint(\"positive\")\n\t\t\t\telse:\n\t\t\t\t\t\t\tprint(\"zero\")\nelse:\n\t\t\t\tprint(\"negative\")</string>
+    >
+    <string name="n2"><big>OUTPUT:</big>\npositive</string>
+    <string name="n3"><big>PROGRAM :</big></string>
+    <string name="n4">num = float(input(\"Enter a number: \"))\nif num >= 0:\n\t\t\t\tif num == 0:\n\t\t\t\t\t\t\tprint(\"Zero\")\n\t\t\t\telse:\n\t\t\t\t\t\t\tprint(\"Positive number\")\nelse:\n\t\t\t\tprint(\"Negative number\")</string>
+    <string name="n5"><big>OUTPUT:</big>\nEnter a number: 5\n
+Positive number\nEnter a number: -1\n
+Negative number\n</string>
+    <string name="n7"><a href="https://www.tutorialspoint.com/python/nested_if_statements_in_python.htm">WEB INFO</a></string>
+    <string name="n8"><a href="https://www.youtube.com/watch?v=rh3YeatqC_4">YOUTUBE</a></string>
+    <string name="loopss">LOOPS</string>
+    <string name="l1">while</string>
+    <string name="l2">for</string>
+    <string name="l3">break and continue</string>
+    <string name="l4">pass</string>
+    <string name="whilee">WHILE</string>
+    <string name="whileeb">->The while loop is used to iterate over a block of code as long as the test expression (condition) is true.\n\n
+->We generally use this loop when we don\'t know the number of times to iterate beforehand.\n\n<big>Syntax:</big>\nwhile expression:\n
+   \t\t\t\tstatement(s)\n\n\n
+        <big>PROGRAM :</big></string>
+    <string name="w1">n = 10\n
+        # initialize sum and counter\n
+sum = 0\n
+i = 1\n
+
+while i &lt;= n:\n
+    \t\t\t\tsum = sum + i\n
+    \t\t\t\ti = i+1  \n\t # update counter
+    print(\"The sum is\", sum)</string>
+    <string name="w2"><big>OUTPUT:</big>\n
+    The sum is 55</string>
+    <string name="w3"><big>PROGRAM :</big></string>
+    <string name="w4">count = 0\n
+while (count &lt; 9):\n
+   \t\t\t\tprint (\"The count is:\", count)\n
+   \t\t\t\tcount = count + 1\n
+        print (\"Good bye!\")</string>
+    <string name="w5"><big>OUTPUT:</big>\nThe count is: 0\n
+The count is: 1\n
+The count is: 2\n
+The count is: 3\n
+The count is: 4\n
+The count is: 5\n
+The count is: 6\n
+The count is: 7\n
+The count is: 8\n
+    Good bye!</string>
+    <string name="w6"><big>WHILE ELSE</big>1.while loops can also have an optional else block.\n2The else part is executed if the condition in the while loop evaluates to False.\n3The while loop can be terminated with a break statement.\n\n\n<big>PROGRAM :</big></string>
+    <string name="w7">counter = 0 \n
+while counter &lt; 3:\n\t\t\t\tprint(\"Inside loop\")\n
+\t\t\t\tcounter = counter+1\n
+    else:\n\t\t\t\tprint(\"Inside else\")</string>
+    <string name="w8"><big>OUTPUT:</big>\n
+Inside loop\n
+Inside loop\n
+Inside loop\n
+Inside else</string>
+    <string name="w9">For more info:</string>
+    <string name="w10"><a href="https://www.programiz.com/python-programming/while-loop">WEB INFO</a></string>
+    <string name="w11"><a href="https://www.youtube.com/watch?v=HZARImviDxg">YOUTUBE</a></string>
+    <string name="fors">FOR LOOP</string>
+    <string name="forsb">->The for loop in Python is used to iterate over a sequence (list, tuple, string) or other iterable objects.\n\n->Iterating over a sequence is called traversal.\n\n
+       <big>Syntax:</big>\nfor iterating_var in sequence:\n
+   \t\t\t\tstatement(s)\n\n\n
+        <big>PROGRAM :</big></string>
+    <string name="f1">n=[1,2,3,4,5,6,7,8,9,10] \n
+sum=0\n
+ for val in n:\n
+ \t\t\t\tsum=sum+val \n
+    print(\"Sum is\",sum)</string>
+    <string name="f2"><big>OUTPUT:</big>\n
+    Sum is 55</string>
+    <string name="f3"><big>PROGRAM :</big></string>
+    <string name="f4">fruits = [\'banana\', \'apple\', \'mango\']\n
+for i in range(len(fruits)):\n
+   \t\t\t\tprint (\'Current fruit :\', fruits[i])\n
+    print (\"Good bye!\")</string>
+    <string name="f5"> <big>OUTPUT:</big>\n
+        Current fruit : banana\n
+Current fruit : apple\n
+Current fruit : mango\n
+    Good bye!</string>
+    <string name="f6"><big>PROGRAM :</big></string>
+    <string name="f7">print(\"List Iteration\")\nl = [\"bvrit\",\"for\",\"education\"]\nfor i in l:\n\t\t\t\tprint(i)\n\n# Iterating over a tuple\nprint(\"Tuple Iteration\")\nt=(\"bvrit\",\"for\",\"education\")\nfor i in t:\n\t\t\t\tprint(i)\n\n#Iterating over a String\nprint(\"String Iteration\")\ns=\"bvrit\"\nfor i in s:\n\t\t\t\tprint(i)\n\n# Iterating over dictionary\nprint(\"Dictionary Iteration\")\nd=dict()\nd[\'xyz\']=123\nd[\'abc\']=345\nfor i in d:\n\t\t\t\tprint(\"%s%d\"%(i,d[i]))</string>
+    <string name="f8"><big>OUTPUT:</big>\nList Iteration\nbvrit\nfor\neducation\n\nTuple Iteration\nbvrit\nfor\neducation\n\nString Iteration\n\tB\n
+v\n
+r\n
+i\n
+    t\n\nDictionary Iteration\nxyz  123\nabc  345</string>
+    <string name="f9"><big>FOR ELSE </big>\n\n->A for loop can have an optional else block as well.\n-> The else part is executed if the items in the sequence used in for loop exhausts.\n
+->The break keyword can be used to stop a for loop. In such cases, the else part is ignored.\n
+    ->Hence, a for loop\'s else part runs if no break occurs.\n\n<big>PROGRAM :</big></string>
+    <string name="f10">d=[1,2,3]\nfor i in d:\n\t\t\t\tprint(i) \nelse:\n\t\t\t\tprint(\"No items\")</string>
+    <string name="f11"><big>OUTPUT:</big>\n1\n2\n3\nNo items</string>
+    <string name="f12">For more info:</string>
+    <string name="f13"><a href="https://www.programiz.com/python-programming/for-loop">WEB INFO</a></string>
+    <string name="f14"><a href="https://www.youtube.com/watch?v=0ZvaDa8eT5s">YOUTUBE</a></string>
+    <string name="breakcon">BREAK AND CONTINUE\t\t\t</string>
+    <string name="breakconb">->break and continue statements can alter the flow of a normal loop.\n\n->Loops iterate over a block of code until the test expression is false, but sometimes we wish to terminate the current iteration or even the whole loop without checking test expression.\n\n
+    <big>BREAK </big>\n\n1.The break statement terminates the loop containing it.\n2.Control of the program flows to the statement immediately after the body of the loop.\n3.If the break statement is inside a nested loop (loop inside another loop), the break statement will terminate the innermost loop.\n\n
+        <big>PROGRAM: for with break</big></string>
+    <string name="b1">for number in range(10):\n\t\t\t\tif number == 5:\n\t\t\t\t\t\t\tbreak\nprint(\'Number is \' + str(number))\nprint(\'Out of loop\')</string>
+    <string name="b2"><big>OUTPUT:</big>\nnumber is 0\nnumber is 1\nnumber is 2\nnumber is 3\nnumber is 4\nout of loop</string>
+    <string name="b3"><big>PROGRAM:while with break</big></string>
+    <string name="b4">n = 5\nwhile n > 0:\n\t\t\t\tn -= 1\n\t\t\t\tif n == 2:\n\t\t\t\t\t\t\tbreak\n\t\t\t\tprint(n)\nprint(\'Loop ended.\')</string>
+    <string name="b5"><big>OUTPUT :</big>\n4\n3\nLoop ended.</string>
+    <string name="b6"><big>CONTINUE</big>\n\n->The continue statement is used to skip the rest of the code inside a loop for the current iteration only.\n->Loop does not terminate but continues on with the next iteration.\n\n
+    <big>PROGRAM:continue with for</big></string>
+    <string name="b7">for number in range(10):\n\t\t\t\tif  number == 5:\n\t\t\t\t\t\t\tcontinue\n\t\t\t\tprint(\'Number is \' + str(number))\nprint(\'Out of loop\')</string>
+    <string name="b8"><big>OUTPUT:</big>\n
+Number is 0\n
+Number is 1\n
+Number is 2\n
+Number is 3\n
+Number is 4\n
+Number is 6\n
+Number is 7\n
+Number is 8\n
+Number is 9\n
+    Out of loop</string>
+    <string name="b9"><big>PROGRAM:continue with else</big></string>
+    <string name="b10">n = 5\nwhile n > 0:\n\t\t\t\tn-=1\n\t\t\t\tif n == 2:\n\t\t\t\t\t\t\tcontinue\nprint(n)\nprint(\'Loop ended.\')</string>
+    <string name="b11"><big>OUTPUT:</big>\n4\n3\n1\n0\nLoop ended.\n </string>
+    <string name="b13"><a href="https://www.programiz.com/python-programming/break-continue">WEB INFO</a></string>
+    <string name="b14"><a href="https://www.youtube.com/watch?v=orFa1oxEneE">YOUTUBE</a></string>
+    <string name="passed">PASS STATEMENT</string>
+    <string name="passedb">->The pass statement is a null statement.\n\n2.The difference between a comment and a pass statement in Python is that while the interpreter ignores a comment entirely, pass is NOT ignored.\n\n
+3.However, nothing happens when the pass is executed. It results in no operation (NOP).\n\n\n
+        <big>PROGRAM:</big></string>
+    <string name="p1">for num in range(10):\n
+ \t\t\t\tif num == 5:\n
+ \t\t\t\t\t\t\tpass\n
+\t\t\t\tprint(\'Num is \'+str(num))\nprint(\'Out of loop\')</string>
+    <string name="p2"><big>OUTPUT:</big>\n
+Num is 0\n
+Num is 1\n
+Num is 2\n
+Num is 3\n
+Num is 4\n
+Num is 5\n
+Num is 6\n
+Num is 7\n
+Num is 8\n
+Num is 9\n
+        Out of loop</string>
+    <string name="p3">->By using the pass statement in this program, we notice that the program runs exactly as it would if there were no conditional statement in the program.\n\n->The pass statement tells the program to disregard that condition and continue to run the program as usual.
+    </string>
+    <string name="lists">LIST</string>
+    <string name="listb">->List is an ordered sequence of items.\n->It is one of the most used datatype in Python and is very flexible.\n->All the items in a list do not need to be of the same type.\n->Declaring a list is pretty straight forward. Items separated by commas are enclosed within brackets [ ].\n\n
+        <big>PROGRAM:</big></string>
+    <string name="li1">list = [\"apple\",\"banana\",\"cherry\"]\n
+        print(list)</string>
+    <string name="li2"><big>OUTPUT:</big>\n[\'apple\',\'banana\', \'cherry\']</string>
+    <string name="hd1"><big>Accessing elements</big></string>
+    <string name="li3">a = [5,10,15,20,25,30,35,40]\n# a[2] = 15\nprint(\"a[2] =\", a[2])</string>
+    <string name="li4"><big>OUTPUT:</big>\n15</string>
+    <string name="hd2">  <big>Negative Indexing</big>\n\nNegative indexing means beginning from the end, -1 refers to the last item, -2 refers to the second last item etc.\n\n
+        <big>PROGRAM:</big></string>
+    <string name="li5">a = [5,10,15,20,25,30,35,40]\n# a[-1] = 40\nprint(\"a[-1] =\", a[-1])</string>
+    <string name="li6"><big>OUTPUT:</big>\n40</string>
+    <string name="hd3">  <big>Range/Slicing</big></string>
+    <string name="li7">a = [5,10,15,20,25,30,35,40]\n# a[0:3] = [5, 10, 15]\nprint(\"a[0:3] = \", a[0:3])\n\n# a[5:] = [30, 35, 40]\nprint(\"a[5:] = \", a[5:])</string>
+    <string name="li8"><big>OUTPUT:</big>\na[0:3] =  [5, 10, 15]\na[5:] =  [30, 35, 40]</string>
+    <string name="hd4"> <big>Looping in list</big></string>
+    <string name="li9">list = [\"apple\", \"banana\", \"cherry\"]\n\t\t\t\tfor x in list:\nprint(x)</string>
+    <string name="li10"><big>OUTPUT:</big>\napple\nbanana\ncherry</string>
+    <string name="hd5"><big>Length of list</big>\nTo determine how many items a list has, use the len() function.\n\n
+        <big>Append</big>\nTo add an item to the END of the list, use the append() method\n\n
+        <big>Insert</big>\nTo add an item at the specified index, use the insert() method\n\n
+        <big>Remove</big>\nThe remove() method removes the specified item.\n\n
+        <big>Join two Lists</big></string>
+    <string name="li11">list1 = [\"a\",\ "b\" ,\"c\"]\nlist2 = [1, 2, 3]\n#using + operator\nlist3 = list1 + list2\nprint(list3)</string>
+    <string name="li12"><big>OUTPUT:</big>\n[\'a\',\'b\',\'c\', 1, 2, 3]\n
+    </string>
+    <string name="ll1">For more info :</string>
+    <string name="ll2"><a href="https://www.geeksforgeeks.org/python-list/">WEB INFO</a></string>
+    <string name="ll3"><a href="https://www.youtube.com/watch?v=9rLdQP3g4fw">YOUTUBE</a></string>
+    <string name="tuples">TUPLE</string>
+    <string name="tupleb">->Tuple is an ordered sequence of items same as a list.\n-> The only difference is that tuples are \"immutable\".\n->Tuples once created cannot be modified.\n
+->Tuples are used to write-protect data and are usually faster than lists as they cannot change dynamically.\n->It is defined within parentheses () where items are separated by commas.\n\n\n
+        <big>PROGRAM:</big></string>
+    <string name="t1">t = (5,\'program\', 1+3j)\n\n# t[1] = \'program\'\nprint(\"t[1] = \", t[1])</string>
+    <string name="t2"><big>OUTPUT:</big>\nt[1] =  program</string>
+    <string name="hd6"><big>Tuples are immutable</big></string>
+    <string name="t3">t = (5,\'program\', 1+3j)\nt[0] = 10</string>
+    <string name="t4"><big>OUTPUT:</big>\n File \"test.py\", line 11, in &lt;module>\nt[0] = 10\nTypeError: \'tuple\' object does not support item assignment</string>
+    <string name="hd7"><big>Negative Indexing</big>\nNegative indexing means beginning from the end, -1 refers to the last item, -2 refers to the second last item etc.\n\n<big>PROGRAM:</big></string>
+    <string name="t5">a = (5,10,15,20,25,30,35,40)\n# a[-1] = 40\nprint(\"a[-1] =\", a[-1])</string>
+    <string name="t6"><big>OUTPUT:</big>\n40</string>
+    <string name="hd8"><big>Range/Slicing</big></string>
+    <string name="t7">a = (5,10,15,20,25,30,35,40)\n# a[0:3] = [5, 10, 15]\nprint(\"a[0:3] = \", a[0:3])\n\n# a[5:] = [30, 35, 40]\nprint(\"a[5:] = \", a[5:])</string>
+    <string name="t8"><big>OUTPUT:</big>\na[0:3] =  [5, 10, 15]\na[5:] =  [30, 35, 40]</string>
+    <string name="hd9"><big>Looping in tuple</big></string>
+    <string name="t9">tuple = [\"apple\", \"banana\", \"cherry\"]\n\t\t\t\tfor x in tuple:\nprint(x)</string>
+    <string name="t10"><big>OUTPUT:</big>\napple\nbanana\ncherry</string>
+    <string name="hd10"><big>Length of tuple</big>\nTo determine how many items a tuple has, use the len() function.\n\n
+        <big>Adding items</big>\nOnce a tuple is created, you cannot add items to it. Tuples are unchangeable.\n\n
+        <big>Adding items</big>\nTuples are unchangeable, so you cannot remove items from it, but you can delete the tuple completely\n\n
+         <big>Join Two Tuples</big></string>
+    <string name="t11">t11 = [\"a\",\ "b\" ,\"c\"]\nt22 = [1, 2, 3]\n#using + operator\nt3 = t1 + t2\nprint(t3)</string>
+    <string name="t12"><big>OUTPUT:</big>\n[\'a\',\'b\',\'c\', 1, 2, 3]</string>
+    <string name="t13"><big>Tuple Methods</big>\n1.count()\t:\tReturns the number of times a specified value occurs in a tuple\n\n
+2.index()\t:\tSearches the tuple for a specified value and returns the position of where it was found\n\n</string>
+    <string name="t14">For more info :</string>
+    <string name="t15"><a href="https://www.geeksforgeeks.org/python-tuples/">WEB INFO</a></string>
+    <string name="t16"><a href="https://www.youtube.com/watch?v=Mf7eFtbVxFM">YOUTUBE</a></string>
+    <string name="setss" tools:ignore="DuplicateDefinition">SETS\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</string>
+    <string name="setb">->A set is a collection which is unordered and unindexed.\n->In Python sets are written with curly brackets.\n->Sets are unordered, so you cannot be sure in which order the items will appear.\n\n\n<big>PROGRAM:</big></string>
+    <string name="s1">set = {1+3j, \"banana\", \"cherry\"}\nprint(set)</string>
+    <string name="s2"><big>OUTPUT:</big>\n{(1+3j), \'banana\', \'cherry\'}</string>
+    <string name="s3"><big>Accessing elements</big></string>
+    <string name="s4">->You cannot access items in a set by referring to an index, since sets are unordered the items has no index.\n->NOTE:You can loop through the set items using a for loop, or ask if a specified value is present in a set, by using the \"in\" keyword.\n\n\n<big>PROGRAM:</big></string>
+    <string name="s5">set = {\"apple\", \"banana\", \"cherry\"}\n\t\t\t\tfor x in set:\nprint(x)</string>
+    <string name="s6"><big>OUTPUT:</big>\ncherry\nbanana\napple</string>
+    <string name="s7"><big>Change Items</big>\n\n->Once a set is created, you cannot change its items, but you can add new items.</string>
+    <string name="s8"><big>Add Items</big>\n->To add one item to a set use the add() method.\n->To add more than one item to a set use the update() method.\n\n\n<big>PROGRAM:</big></string>
+    <string name="s9">s = {\"apple\",27.7,\"cherry\"}\ns.add(1+2j)\nprint(s)</string>
+    <string name="s10"><big>OUTPUT:</big>\n{\'cherry\', 27.7, \'apple\', (1+2j)}</string>
+    <string name="s11">#updating set\nt = {\"apple\", \"banana\",\"cherry\"}\nt.update([1,27.2345, \"grapes\"])\nprint(t)</string>
+    <string name="s12"><big>OUTPUT:</big>\n{3, \'c\', 1, \'a\', 2, \'b\'}</string>
+    <string name="s13"><big>Length of set</big>\n->To determine how many items a list has, use the len() function.\n\n
+        <big>Remove:</big>\n->The remove() method removes the specified item.\n->If the item to remove does not exist, remove() will raise an error.\n\n
+        <big>Discard:</big>\n->If the item to remove does not exist, discard() will NOT raise an error.\n\n
+        <big>Clear:</big>\n->The clear() method empties the set.\n\n<big>Del:</big>\nThe del keyword will delete the set completely.\n\n
+        <big>Join two Lists</big>\n->Can use the union() method that returns a new set containing all items from both sets.\n->The update() method inserts all the items from one set into another.\n\n\n<big>PROGRAM:</big></string>
+    <string name="s14">set1 = {\"a\", \"b\" , \"c\"}\nset2 = {1, 2, 3}\nset3 = set1.union(set2)\nprint(set3)</string>
+    <string name="s15"><big>OUTPUT:</big>\n{2, \'c\', \'b\', \'a\', 3, 1}\n\n(Note:Output can be in any random order.)</string>
+    <string name="s16"><big>Set Methods</big></string>
+    <string name="s17">For more info:</string>
+    <string name="s18"><a href="https://www.geeksforgeeks.org/python-sets/">WEB INFO</a></string>
+    <string name="s19"><a href="https://www.youtube.com/watch?v=MEPlLAjPvXY">YOUTUBE</a></string>
+    <string name="basic">BASICS</string>
+    <string name="dict">DICTIONARIES
+    </string>
+    <string name="d0">A dictionary is a set of key:value pairs.\n\n->All keys in a dictionary must be unique.\n\n->In a dictionary, a key and its value are separated by a colon.\n\nNOTE:\nThe key, value pairs are separated with commas.\n->The key and value pairs are listed between curly brackets \" { } \".\n->We query the dictionary using square brackets \" [ ] \"\n\n\n<big>PROGRAM:</big></string>
+    <string name="d1">dict ={\"brand\": \"Ford\",1: 27.345,\"year\": 1964}\nprint(dict)</string>
+    <string name="d2"><big>OUTPUT:</big>\n{\'brand\': \'Ford\', 1: 27.345, \'year\': 1964}</string>
+    <string name="d3"><big>Accessing Items</big>\n->You can access the items of a dictionary by referring to its key name, inside square brackets.\n\n<big>PROGRAM:</big></string>
+    <string name="d4">d={\"brand\": \"Ford\",\"fruit\": \"apple\",\"year\": 1964}\nx = d[\"year\"]\nprint(x)</string>
+    <string name="d5"><big>OUTPUT:</big>\n1964</string>
+    <string name="d6">#using get() method\nd={\"brand\": \"Ford\",\"fruit\": \"apple\",\"year\": 1964}\nx=d.get("fruit")\nprint(x)</string>
+    <string name="d7"><big>OUTPUT:</big>\napple</string>
+    <string name="d8"><big>Changing values</big>\n\n->You can change the value of a specific item by referring to its key name.\n\n<big>PROGRAM:</big></string>
+    <string name="d9">dict={\"apple\": \"fruit\",\"bbt\": 27.78,\"year\":2000}\nthisdict[\"year\"]=2018\nprint(dict)</string>
+    <string name="d10"><big>OUTPUT:</big>\n{\'apple\': \'fruit\', \'bbt\': \'27.78\', \'year\': 2018}</string>
+    <string name="d11"><big>Loop Through Dictionary</big>\n\n->You can loop through a dictionary by using a for loop.\n->When looping through a dictionary, the return value are the keys of the dictionary.\n\n<big>PROGRAM</big></string>
+    <string name="d12">a_dict = {\'color\': \'blue\', \'fruit\': \'apple\', \'pet\': \'dog\'}\nfor key in a_dict:\n\t\t\t\trint(key)</string>
+    <string name="d13"><big>OUTPUT:</big>\ncolor\nfruit\npet</string>
+    <string name="d14"><big>values() function</big>\n\n#using values() function\nt={\"brand\": \"Ford\",\"model\": \"Mustang\",\"year\": 1964}\nfor x in t.values():\n\t\t\t\tprint(x)\n\n<big>OUTPUT:</big>\nFord\nMustang\n1964\n\n<big>items() function</big>\n\nt={\"a\": \"Ford\",\"b\": \"orange\",  \"year\": 19}\nfor x, y in t.items():\n\t\t\t\tprint(x, y)\n\n<big>OUTPUT:</big>\na Ford\nb orange\nyear 19\n\n<big>Length of dict</big>\n->To know how many items (key-value pairs) a dictionary has, use the len() method.\n\n
+        <big>Adding Items</big>\n->Adding an item to the dictionary is done by using a new index key and assigning a value to it\n\n
+        <big>Removing Items</big>\n->The \"pop()\" method removes the item with the specified key name.\n\n
+        ->The \"popitem()\" method removes the last inserted item.\n\n
+        ->The \"del\" keyword removes the item with the specified key name.\n\n->The \"clear()\" method empties the dictionary.\n\n\n<big>Copy a Dictionary</big>\n\n
+        Dictionary can be copied using the \"copy()\" method.\n\n<big>Program:</big></string>
+    <string name="d15">t = {\"a\":1,\"m\":25.9999,\"year\":\"happy\"}\nmydict =t.copy()\nprint(t)</string>
+    <string name="d16"><big>OUTPUT:</big>\n{\'a\': 1, \'m\': 25.9999, \'year\': \'happy\'}\n\nNOTE:->Dictionaries can also be nested.</string>
+    <string name="d17">For more info:</string>
+    <string name="d18"><a href="https://www.geeksforgeeks.org/python-dictionary/">WEB INFO</a></string>
+    <string name="d19"><a href="https://www.youtube.com/watch?v=2IsF7DEtVjg">YOUTUBE</a></string>
+    <string name="obj">OOPS CONCEPTS</string>
+    <string name="o1">->Python is a multi-paradigm programming language which supports different programming approach.\n\nOne of the popular approach to solve a programming problem is by creating objects. This is known as Object-Oriented Programming (OOP).\n\nAn object has two characteristics:\n
+1.Attributes\n
+2.Behaviour\n\n
+->Let\'s take an example:\n
+Parrot is an object,\n
+name, age, color are attributes\n
+singing, dancing are behaviour\n\n->The concept of OOP in Python focuses on creating reusable code.</string>
+    <string name="ba">Class and Object</string>
+    <string name="bb">Methods</string>
+    <string name="bc">Inheritance</string>
+    <string name="bd">Encapsulation</string>
+    <string name="be">Polymorphism</string>
+    <string name="bf">Method overriding</string>
+    <string name="bg">operator overloading</string>
+    <string name="clas">CLASS AND OBJECT</string>
+    <string name="cl1"><big>Class:</big>\nA class is a blueprint for the object.\n
+->We can think of class as an sketch of a parrot with labels.\n It contains all the details about the name, colors, size etc.\n Based on these descriptions, we can study about the parrot. Here, parrot is an object.\n\n
+        <b>Syntax:</b>\nclass ClassName:\n# Statement-1\n.\n.\n.\n# Statement-N\n\n<big>Object:</big>\n\n->An object (instance) is an instantiation of a class.\n->When class is defined, only the description for the object is defined.\n->No memory or storage is allocated.\n->Creating class and object using python.</string>
+    <string name="cl2"><big>Class Creation:</big>\nTo create a class, use the keyword \"class\"\n\n<big>Program:</big></string>
+    <string name="cl2a">class MyBvrit:\n\t\t\t\x = "bvrit"\n\nprint(MyClass)</string>
+    <string name="cl2b"><big>OUTPUT:</big>\n&lt;class\'__main__.MyClass\'></string>
+    <string name="cl2c"><big>Object Creation:</big>After creating a class,an object is created.\n\n<big>Program:</big></string>
+    <string name="cl3">class MyBvrit:\n\t\t\tx = 5\n\np1 = MyBvrit()\nprint(p1.x)</string>
+    <string name="cl4"><big>OUTPUT:</big>\n5</string>
+    <string name="cl5"><big>__init__ function() :</big>\n\n->All classes have a function called __init__(), which is always executed when the class is being initiated.\n\n->Use the __init__() function to assign values to object properties, or other operations that are necessary to do when the object is being created.\n\n<big>Program:</big></string>
+    <string name="cl6">class Parrot:\n\n# class attribute\n\t\t\tspecies = \"bird\"\n\n# instance attribute\ndef __init__(self, name, age):\n\t\t\tself.name = name\nself.age = age\n\n# instantiate the Parrot class\nblu = Parrot("Blu", 10)\nwoo = Parrot("Woo", 15)\n\n# access the class attributes\nprint(\"Blu is a {}\".format(blu.__class__.species))\nprint(\"Woo is also a {}\".format(woo.__class__.species))\n\n# access the instance attributes\n
+print(\"{} is {} years old\".format( blu.name, blu.age))\n
+print(\"{} is {} years old\".format( woo.name, woo.age))</string>
+    <string name="cl7"><big>OUTPUT</big>\n\nBlu is a bird\nWoo is also a bird\nBlu is 10 years old\nWoo is 15 years old</string>
+    <string name="me">METHODS\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</string>
+    <string name="me1">->Methods are functions defined inside the body of a class.\n\n->They are used to define the behaviors of an object.\n\n\n<big>PROGRAM:</big></string>
+    <string name="me2">class Parrot:\n\n# instance attributes\n\t\tdef __init__(self, name, age):\n\t\t\t\t self.name = name\n\t\t\t\t  self.age = age\n\n
+        # instance method\n\t\tdef sing(self, song):\n\t\t\t\treturn \"{} sings {}\".format(self.name, song)\n\t\tdef dance(self):\n\t\t\t\treturn\"{} is now dancing\".format(self.name)\n\n
+        # instantiate the object\nblu=Parrot(\"Blu\", 10)\n\n# call our instance methods\nprint(blu.sing(\"\'Happy\'\"))\nprint(blu.dance())</string>
+    <string name="me3"><big>OUTPUT:</big>\n\nBlu sings \'Happy\'\nBlu is now dancing</string>
+    <string name="inh">INHERITANCE</string>
+    <string name="inh1">->Inheritance is a powerful feature in object oriented programming.\n\n->It refers to defining a new class with little or no modification to an existing class.\n\n-> The new class is called derived (or child) class and the one from which it inherits is called the base (or parent) class.\n\n<big>Syntax:</big>\n\n
+class BaseClass:\n\t\t\t\tBody of base class\nclass DerivedClass(BaseClass):\n\t\t\t\tBody of derived class.</string>
+    <string name="inh2">class Person:\n\t\tdef __init__(self, fname, lname):\n\t\t\t\tself.firstname = fname\n\t\t\t\tself.lastname = lname\n\n\t\tdef printname(self):\n\t\t\t\tprint(self.firstname, self.lastname)\n\nx = Person(\"Bvrit\", \"Narsapur\")\nx.printname()</string>
+    <string name="inh3"><big>OUTPUT:</big>\nBvrit Narsapur</string>
+    <string name="inh4"><big>Create a Child Class :</big>\n\n->For a class that inherits the functionality from another class,send the parent class as a parameter when creating the child class.\n\n->Note: Use the pass keyword when you do not want to add any other properties or methods to the class.\n\n<big>Using __init__() Function :</big>\n\n->We want to add the __init__() function to the child class (instead of the pass keyword).\n\n->When you add the __init__() function, the child class will no longer inherit the parent\'s __init__() function.\n\n<big>NOTE:</big>The child\'s __init__() function overrides the inheritance of the parent\'s  __init__() function.\n\n<big>PROGRAM:</big></string>
+    <string name="inh5">class Person(object):\n\n# Constructor\n\t\tdef __init__(self, name):\n\t\t\t\t self.name = name\n\n# To get name\n\t\tdef getName(self):\n\t\t\t\t return self.name\n
+    # To check if this person is employee\n\t\tdef isEmployee(self):\n\t\t\t\t return False\n\n# Inherited or Sub class(Person in bracket)\nclass Employee(Person):\n\n# Here we return true\n\t\tdef isEmployee(self):\n\t\t\t\t return True\n\n#code\n
+emp = Person("John")\nprint(emp.getName(), emp.isEmployee())\n\nemp = Employee("Wick")\n
+print(emp.getName(), emp.isEmployee())</string>
+    <string name="inh6"><big>OUTPUT:</big>\nJohn False\nWick True</string>
+    <string name="inh7"><big>PROGRAM:</big></string>
+    <string name="inh8"># parent class\nclass Bird:\n\n\t\tdef __init__(self):\n\t\t\t\tprint(\"Bird is ready\")\n\n\t\tdef whoisThis(self):\n\t\t\t\t print(\"Bird\")\n\n\t\tdef swim(self):\n\t\t\t\t print(\"Swim faster\")\n\n# child class\nclass Penguin(Bird):\nd\t\tdef __init__(self):\n\t\t# call super() function\n\t\t\t\tsuper().__init__()\n\t\t\t\tprint(\"Penguin is ready\")\n\n\t\tdef whoisThis(self):\n\t\t\t\tprint(\"Penguin\")\n\n\t\tdef run(self):\n\t\t\t\tprint(\"Run faster\")\n\peggy = Penguin()\n
+peggy.whoisThis()\npeggy.swim()\npeggy.run()</string>
+    <string name="inh9"><big>OUTPUT:</big>\nBird is ready\nPenguin is ready\n
+Penguin\n
+Swim faster\n
+Run faster\n</string>
+    <string name="inh1a">->Inheritance is a way of creating new class for using details of existing class without modifying it.\n->The newly formed class is a derived class (or child class),the existing class is a base class (or parent class).\n\n<big>PROGRAM:</big></string>
+    <string name="inb1">Inheritance</string>
+    <string name="inb2">Multiple Inheritance</string>
+    <string name="inb3">Multilevel Inheritance</string>
+    <string name="inb4">Hierarchial Inheritance</string>
+    <string name="mul">MULTIPLE</string>
+    <string name="mul1">->When a class is derived from more than one base class it is called Multiple Inheritance.\n->The derived class inherits all the features of the base case.\n\n
+<big>Syntax</big>Syntax\n\nClass Base1:\n
+ \t\t\t\t Body of the class\nClass Base2:\n
+\t\t\t\t Body of the class\nClass Derived(Base1, Base2):\n
+\t\t\t\t Body of the class\n\n<big>PROGRAM :</big></string>
+    <string name="mul2">#base 1\nclass Mother:\n\t\tmname=\"\"\n\t\tdef mother(self):\n\t\t\t\tprint(self.mname)\n\n# Base 2\nclass Father:\n\t\tfname=\"\"\n\t\tdef father(self):\n\t\t\t\tprint(self.fname)\n\n# Derived_class\nclass Son(Mother,Father):\n\t\tdef parents(self):\n\t\t\t\tprint(\"Father:\",self.fname)\n\t\t\t\tprint(\"Mother:\",self.mname)\n\n#code\ns1=Son()\ns1.fname=\"RAM\"\ns1.mname=\"SITA\"\ns1.parents()</string>
+    <string name="mul3"><big>OUTPUT</big>\n\nFather : RAM\n
+Mother : SITA</string>
+    <string name="mlt">Multilevel</string>
+    <string name="mlt1">->In multilevel inheritance, features of the base class and the derived class are further inherited into the new derived class.\n\n->This is similar to a relationship representing a child and grandfather.
+</string>
+    <string name="mlt2"># Base class\nclass Grandfather:\n\t\tgname=\"\"\n\t\tdef gfather(self):\n\t\t\t\tprint(self.gname)\n\n# Intermediate class\nclass Father(Grandfather):\n\t\tfname=\"\"\n\t\tdef father(self):\n\t\t\t\tprint(self.fname)\n\n# Derived_class\nclass Son(Father):\n\t\tdef parent(self):\n\t\t\t\tprint(\"GrandFather:\",self.gname)\n\t\t\t\tprint(\"Father:\",self.fname)\n\n# Driver\'s_code\ns1=Son()\ns1.gname=\"Srinivas\"\ns1.fname=\"Ankush\"\ns1.parent() </string>
+    <string name="mlt3"><big>OUTPUT:</big>\n\nGrandFather:Srinivas\n
+Father : Ankush</string>
+    <string name="hie">HIERARCHY</string>
+    <string name="hi1">Hierarchical Inheritance:\n\n->When more than one derived classes are created from a single base this type of inheritance is called hierarchical inheritance.\n\n->Here,we have a parent (base) class and two child (derived) classes.\n</string>
+    <string name="enc">ENCAPSULATION</string>
+    <string name="enc1">->Using OOP in Python, we can restrict access to methods and variables.\n\n->This prevent data from direct modification which is called encapsulation.\n\n->In Python, we denote private attribute using underscore as prefix i.e single \' \' or double \" \".\n\n<big>PROGRAM :</big></string>
+    <string name="enc2">class Computer:\n\t\tdef __init__(self):\n\t\t\t\tself.maxprice = 900\n\n\t\tdef sell(self):\n\t\t\t\tprint(\"Selling Price: {}\".format(self.maxprice))\n\n\t\tdef setMaxPrice(self, price):\n\t\t\t\tself.maxprice = price\n\nc = Computer()\nc.sell()\n\n# change the price\nc.maxprice = 1000\nc.sell()\n\n# using setter function\nc.setMaxPrice(1000)\nc.sell()</string>
+    <string name="enc3"><big>OUTPUT:</big>\n\nSelling Price: 900\nSelling Price: 900\nSelling Price: 1000</string>
+    <string name="enc5"><a href="https://pythonprogramminglanguage.com/encapsulation/">WEB INFO</a></string>
+    <string name="enc6"><a href="https://www.youtube.com/watch?v=g1Krtmf556w">YOUTUBE</a></string>
+    <string name="poly">POLYMORPHISM</string>
+    <string name="po1">->Polymorphism is an ability (in OOP) to use common interface for multiple form (data types).\n\n->Suppose, we need to color a shape, there are multiple shape option (rectangle, square, circle).\n\n->However we could use same method to color any shape.\n\n->This concept is called Polymorphism.\n\n\n
+<big>PROGRAM :</big></string>
+    <string name="po2">class Bear(object):\n\t\tdef sound(self):\n\t\t\t\tprint(\"Groarrr\")\n\nclass Dog(object):\n\t\tdef sound(self):\n\t\t\t\tprint(\"Woof woof!\")\n\n\t\tdef makeSound(animalType):\n\t\t\t\tanimalType.sound()\n\nbearObj=Bear()\ndogObj=Dog()\nmakeSound(bearObj)\nmakeSound(dogObj)</string>
+    <string name="po3"><big>OUTPUT :</big>\n\nGroarrr\nWoof woof!</string>
+    <string name="po5"><a href="https://pythonspot.com/polymorphism/">WEB INFO</a></string>
+    <string name="po6"><a href="https://www.youtube.com/watch?v=P1vH3Pfw6BI">YOUTUBE</a></string>
+    <string name="methover">METHOD OVERRIDING</string>
+    <string name="methover1">->Method overriding is an ability of any object-oriented programming language that allows a subclass or child class to provide a specific implementation of a method that is already provided by one of its super-classes or parent classes.\n\n->When a method in a subclass has the same name, same parameters or signature and same return type(or sub-type) as a method in its super-class, then the method in the subclass is said to override the method in the super-class.\n\n<big>PROGRAM :</big></string>
+    <string name="methover2">class Parent():\n\n# Constructor\n\t\tdef __init__(self):\n\t\t\t\t self.value = \"Inside Parent\"\n\n# Parent\'s show method\n\t\tdef show(self):\n\t\t\t\t print(self.value)\n\n# Defining child class\nclass Child(Parent):\n\n# Constructor\n\t\tdef __init__(self):\n\t\t\t\tself.value=\"Inside Child\"\n\n# Child\'s show method\n\t\tdef show(self):\n\t\t\t\tprint(self.value)\n\n#code\nobj1 = Parent()\nobj2 = Child()\n\nobj1.show()\nobj2.show()</string>
+    <string name="methover3"><big>OUTPUT :</big>\n\nInside Parent\nInside Child</string>
+    <string name="methover5"><a href="https://pythonspot.com/method-overloading/">WEB INFO</a></string>
+    <string name="methover6"><a href="https://www.youtube.com/watch?v=CcTzTuIsoFk">YOUTUBE</a></string>
+    <string name="opera">OPERATOR OVERLOADING</string>
+    <string name="opera1">->Operator Overloading means giving extended meaning beyond their predefined operational meaning.\n\n->For example operator + is used to add two integers as well as join two strings and merge two lists.\n\n->It is achievable because \"+\" operator is overloaded by int class and str class.\n\n->You might have noticed that the same built-in operator or function shows different behavior for objects of different classes, this is called Operator Overloading.\n\n<big>PROGRAM :</big></string>
+    <string name="opera2">class A:\n\t\tdef __init__(self, a):\n\t\t\t\tself.a = a\n\n# adding two objects\n\t\tdef __add__(self, o):\n\t\t\t\treturn self.a + o.a\n\nob1=A(1)\nob2=A(2)\nob3=A(\"Bvrit\")\nob4 = A(\"N\")\n\nprint(ob1 + ob2)\nprint(ob3 + ob4)</string>
+    <string name="opera3"><big>OUTPUT :</big>\n\n3\nBvritN</string>
+    <string name="opera4">Operator overloading functions :\n
+Operator\t\t\t\tExpression  (or)\t\tInternally\n\n
+Addition ->\t\t p1 + p2  (or)\t\tp1.__add__(p2)\n
+Subtraction->\t\t p1 - p2  (or)\t\tp1.__sub__(p2)\n
+Multiplication->\t\t p1 * p2  (or)\t\tp1.__mul__(p2)\n
+Power->\t\tp1 ** p2  (or)\t\tp1.__pow__(p2)\n
+Division->\t\t	p1 / p2  (or)\t\tp1.__truediv__(p2)\n
+Floor Division->\t\tp1 // p2  (or)\t\tp1.__floordiv__(p2)\n
+Remainder (modulo)->\t\tp1 % p2  (or)\t\tp1.__mod__(p2)\n
+Bitwise Left Shift->\t\tp1 &lt;&lt; p2  (or)\t\tp1.__lshift__(p2)\n
+Bitwise Right Shift->\t\tp1 >> p2  (or)\t\tp1.__rshift__(p2)\n
+Bitwise AND->\t\tp1 &amp; p2  (or)\t\tp1.__and__(p2)\n
+Bitwise OR->\t\tp1 | p2  (or)\t\tp1.__or__(p2)\n
+Bitwise XOR->\t\tp1 ^ p2  (or)\t\tp1.__xor__(p2)\n
+Bitwise NOT->\t\t~p1  (or)\t\tp1.__invert__()\n\n\n\n</string>
+    <string name="opera5"><a href="https://www.programiz.com/python-programming/operator-overloading">WEB INFO</a></string>
+    <string name="opera6"><a href="https://www.youtube.com/watch?v=9wd50TKv_OQ">YOUTUBE</a></string>
+    <string name="funct">FUNCTIONS</string>
+    <string name="funct1">->Function is a group of related statements that performs a specific task.\n\n->Functions help break our program into smaller and modular chunks.\n\n->As our program grows larger and larger, functions make it more organized and manageable.\n\n
+->Furthermore, it avoids repetition and makes the code reusable.\n\n
+<big>Syntax:</big>\n\ndef function_name(parameters):\n
+	\t\t\t\t\"\"\"docstring\"\"\"\n\t\t\t\tstatement(s)\n\n\n<big>PROGRAM :</big></string>
+    <string name="funct2">def area(length,width):\n\t\treturn length*width\nare = area(10,20)\nprint(\"Area of rectangle:\",are)</string>
+    <string name="funct3"><big>OUTPUT :</big>\n\nArea of rectangle: 200</string>
+    <string name="funct4"><big>PROGRAM :</big></string>
+    <string name="funct5">def greet(name):\n\t\t\"\"\"\n\t\tThis function greets to\n\t\tthe person passed in as\n\t\ta parameter\n\t\t\"\"\"\n\t\tprint(\"Hello, \" + name + \". Good morning!\")\n\ngreet(\'Paul\')
+</string>
+    <string name="funct6"><big>OUTPUT :</big>\n\nHello, Paul. Good morning!</string>
+    <string name="funct7a">For more info :</string>
+    <string name="funct7"><a href="https://www.w3schools.com/python/python_functions.asp">WEB INFO</a></string>
+    <string name="funct8"><a href="https://www.youtube.com/watch?v=BVfCWuca9nw">YOUTUBE</a></string>
+    <string name="iter">ITERATORS</string>
+    <string name="iter1">->Iterators are everywhere in Python. They are implemented within for loops, comprehensions, generators etc,but hidden in plain sight\n\n->Iterator is simply an object that can be iterated upon.An object which will return data, one element at a time.\n\n
+->Technically speaking, Python iterator object must implement two special methods, __iter__() and __next__(), collectively called the iterator protocol.\n\n->An object is called iterable if we can get an iterator from it. Most of built-in containers in Python like: list, tuple, string etc. are iterables.\n\n
+->The iter() function (which in turn calls the __iter__() method) returns an iterator from them.\n\n<big>PROGRAM :</big></string>
+    <string name="iter2">class MyNumbers:\n\t\tdef __iter__(self):\n\t\t\t\tself.a = 1\n\t\t\t\treturn self\n\n\t\tdef __next__(self):\n\t\t\t\tx = self.a\n\t\t\t\tself.a += 1\n\t\t\t\treturn x\n\nmyclass = MyNumbers()\nmyiter = iter(myclass)\n\nprint(next(myiter))\nprint(next(myiter))\nprint(next(myiter))\nprint(next(myiter))\nprint(next(myiter))
+</string>
+    <string name="iter3"><big>OUTPUT :</big>\n\n1\n2\n3\n4\n5</string>
+    <string name="iter5"><a href="https://www.w3schools.com/python/python_iterators.asp">WEB INFO</a></string>
+    <string name="iter6"><a href="https://www.youtube.com/watch?v=NuAdhLdOW2A">YOUTUBE</a></string>
+    <string name="mod">MODULES</string>
+    <string name="mod1">->Modules refer to a file containing Python statements and definitions.\n\n->A file containing Python code, for e.g.: example.py, is called a module and its module name would be example.\n\n->We use modules to break down large programs into small manageable and organized files.\n\n->\Furthermore, modules provide reusability of code.\n\n->We can define our most used functions in a module and import it, instead of copying their definitions into different programs.\n\n<big>PROGRAM :</big></string>
+    <string name="mod2">#module,calc.py\ndef add(x,y):\n\t\treturn (x+y)\n\ndef subtract(x,y):\n\t\treturn (x-y)\n\nimport calc\n\ncalc.add(10,2)</string>
+    <string name="mod3"><big>OUTPUT:</big>\n12\n\n->Here the output will only be shown if there exists a file \"calc.py\" which is created first and then imported.</string>
+    <string name="mod5"><a href="https://www.w3schools.com/python/python_modules.asp">WEB INFO</a></string>
+    <string name="mod6"><a href="https://www.youtube.com/watch?v=1RuMJ53CKds">YOUTUBE</a></string>
+    <string name="pack">PACKAGES</string>
+    <string name="pack1">->Python package is a collection of modules in directories that give a package hierarchy.\n\n->More elaborately, python packages are a way of structuring python\’s module by using \“dotted module names\”.\n\n->So A.B actually indicates that B is a sub module which is under a package named A.\n\n<b>Importing modules from package:</b>\n->We can import modules from packages using the dot (.) operator.\n\n<big>PROGRAM :</big></string>
+    <string name="pack2">#code 1\n# Python code to Modules\nclass Bmw:\n#create a constructor for class\n#add members to it,models\n\t\tdef __init__(self):\n\t\t\t\tself.models=[\'i8\',\'x1\',\'x5\',\'x6\']\n\n
+        \t\t# A normal print funct\n\t\tdef outModels(self):\n\t\t\t\tprint(\'These are the available models for BMW\')\n\t\t\t\tfor model in self.models:\n\t\t\t\t\t\tprint(\'t%s\'% model)\n\n#code 2\n#illustrate the Module\n
+        class Audi:\n\n#create a constructor for class\n#add members to it,models\n\t\tdef __init__(self):\n\t\t\t\tself.models=[\'q7\',\'a\',\'a8\',\'a3\']\n\n#normal print function\n\t\tdef outModels(self):\n\t\t\t\tprint(\'These are the available models for Audi\')\n
+        \t\t\t\tfor model in self.models:\n\t\t\t\t\t\tprint(\'\t%s\' % model)\n\n#code 3\n#illustrate the Module\nclass Nissan:\n#create a constructor\n#add members\n\t\tdef __init__(self):\n\t\t\t\tself.models=[\'altima\',\'370z\',\'cube\',\'rogue\']\n\n
+        #normal print function\n\t\tdef outModels(self):\n\t\t\t\tprint(\'These are the available models for Nissan\')\n\t\t\t\tfor model in self.models:\n\t\t\t\t\t\tprint(\'\t%s\'% model)\n\n
+        from codes 1,2,3\nfrom Bmw import Bmw\nfrom Audi import Audi\nfrom Nissan import Nissan\n\nthe code generated is as shown below\n# Import classes from brand new package\nfrom Cars import Bmw\nfrom Cars import Audi\nfrom Cars import Nissan\n\n# Create an object of Bmw class\n#call its method\nModBMW = Bmw()\n
+ModBMW.outModels()\n\n# Create an object of Audi class\n#call its method\nModAudi = Audi()\nModAudi.outModels()\n\n# Create an object of Nissan class\n#call its method\nModNissan = Nissan()\nModNissan.outModels()</string>
+    <string name="pack5"><a href="https://www.programiz.com/python-programming/package">WEB INFO</a></string>
+    <string name="pack6"><a href="https://www.youtube.com/watch?v=gDlQoqLTt98">YOUTUBE</a></string>
+    <string name="ad">ADVANCED PYTHON\t</string>
+    <string name="butto01">iterators</string>
+    <string name="butto1">GENERAtors</string>
+    <string name="butto2">closure</string>
+    <string name="butto3">decorators</string>
+    <string name="butto4">property</string>
+    <string name="butto5">getters &amp; setters </string>
+    <string name="gen">GENERATORS</string>
+    <string name="gen1">->There is a lot of overhead in building an iterator in Python; we have to implement a class with __iter__() and __next__() method, keep track of internal states, raise StopIteration when there was no values to be returned etc.\n\n
+->This is both lengthy and counter intuitive. Generator comes into rescue in such situations.\n\n->generator is a function that returns an object (iterator) which we can iterate over (one value at a time).\n\n\n
+    ->It is as easy as defining a normal function with yield statement instead of a return statement.\n\n
+If a function contains at least one yield statement (it may contain other yield or return statements), it becomes a generator function.\n\n->Both yield and return will return some value from a function.\n\n
+->The difference is that, while a return statement terminates a function entirely, yield statement pauses the function saving all its states and later continues from there on successive calls.\n\n\n<big>PROGRAM :</big>
+</string>
+    <string name="gen2">a=2\ndef myfunc(a):\n\t\twhile a >= 0:\n\t\t\t\tyield a\n\t\t\t\ta -= 1\nb =  myfunc(a)\nprint(b)\nnext(b)</string>
+    <string name="gen3"><big>OUTPUT :</big>\n\n&lt;generator object myfunc at 0x7f7808b8d9d0>\n>>> 2\n2\n2\n>>> next(b)\n1\n>>> next(b)\n0\n>>>\n\nThe output is not shown as soon as the code is run.\n->The user gets the output by giving \"next(b)\" as input.</string>
+    <string name="gen5"><a href="https://www.edureka.co/blog/generators-in-python/">WEB INFO</a></string>
+    <string name="gen6"><a href="https://www.youtube.com/watch?v=mziIj4M_uwk">YOUTUBE</a></string>
+    <string name="clo">CLOSURE</string>
+    <string name="clo1">->Non local variable in nested function:\n\n
+->Before getting into what a closure is, we have to first understand what a nested function and nonlocal variable is.\n\n
+->A function defined inside another function is called a nested function. Nested functions can access variables of the enclosing scope.\n\n
+->These non-local variables are read only by default and we must declare them explicitly as non-local (using nonlocal keyword) in order to modify them.\n\n<big>PROGRAM :</big>
+</string>
+    <string name="clo2">def funcOut():\n\t\tprint(\"outer function.\")\n\t\tdef funcIn():\n\t\t\t\tprint(\"funct defined inside funcOut.\nThis-function(funcIn) is \nested function.\")\n\t\tprint(\"nested function here.\")\n\t\tfuncIn()\nprint(\"outer function.\nCalling funcOut.\")\nfuncOut()</string>
+    <string name="clo3"><big>OUTPUT :</big>\n\nouter function.\nCalling funcOut.\n
+outer function.\n
+nested function here.\n
+funct defined inside funcOut.\n
+This-function(funcIn) is nested function.</string>
+    <string name="clo5"><a href="https://www.tutorialspoint.com/python-closures">WEB INFO</a></string>
+    <string name="clo6"><a href="https://www.youtube.com/watch?v=tvWRhMkUcoU">YOUTUBE</a></string>
+    <string name="dec">DECORATORS</string>
+    <string name="dec1">->A decorator takes in a function, adds some functionality and returns it.\n\n->Python has an interesting feature called decorators to add functionality to an existing code.\n\n
+->This is also called METAPROGRAMMING as a part of the program tries to modify another part of the program at compile time.\n\n<big>PROGRAM :</big>
+</string>
+    <string name="dec2">def inc(x):\n\t\treturn x + 1\n\ndef dec(x):\n\t\treturn x – 1\n\ndef operate(func, x):\n\t\tresult = func(x)\n\t\treturn result\</string>
+    <string name="dec3">operate(inc,3)\n4\n\noperate(dec,3)\n2</string>
+    <string name="dec5"><a href="https://www.programiz.com/python-programming/decorator">WEB INFO</a></string>
+    <string name="dec6"><a href="https://www.youtube.com/watch?v=71n2aCWMgwA">YOUTUBE</a></string>
+    <string name="pro">PROPERTY</string>
+    <string name="pro1">->The property() method in Python provides an interface to instance attributes.\n\n->It encapsulates instance attributes and provides a property, same as Java and C#.\n\n->The property() method takes the get, set and delete methods as arguments and returns an object of the property class.\n\n<big>PROGRAM :</big></string>
+    <string name="pro2">class Celsius:\n\t\tdef __init__(self, temperature = 0):\n\t\t\t\tself.temperature = temperature\n\n\t\tdef to_fahrenheit(self):\n\t\t\t\treturn (self.temperature * 1.8) + 32</string>
+    <string name="pro3"><big>OUTPUT :</big>\n\n>>>#create new object\n>>> man = Celsius()\n>>>#set temperature\n>>> man.temperature = 37\n\n>>>#get temperature\n
+>>> man.temperature\n37\n\n>>>#get degrees Fahrenheit\n>>> man.to_fahrenheit()\n98.600000001</string>
+    <string name="pro5"><a href="https://www.tutorialsteacher.com/python/property-function">WEB INFO</a></string>
+    <string name="pro6"><a href="https://www.youtube.com/watch?v=5-S_B6nAzO8">YOUTUBE</a></string>
+    <string name="get">GETTERS AND SETTERS</string>
+    <string name="get1">->Getters and setters are not the same as those in other object-oriented programming languages.The main purpose of using getters and setters in object-oriented programs is to ensure data encapsulation.\n\n->Private variables in python are not actually hidden fields like in other object oriented languages.\n\n->Getters and Setters in python are often used to add validation logic around getting and setting a value.\n\n<big>PROGRAM :</big></string>
+    <string name="get2">class year_graduated:\n\t\tdef __init__(self, year=0):\n\n\t\t\t\tself._year = year\n\n# getter method\n\t\tdef get_year(self):\n\t\t\t\treturn self._year\n
+        # setter method\n\t\tdef set_year(self, a):\n\t\t\t\tself._year = a\n\ngrad_obj = year_graduated()\n# Before using setter\nprint(grad_obj.get_year())\n\n#After using setter\ngrad_obj.set_year(2019)</string>
+    <string name="get3"><big>OUTPUT :</big>\n\n0\n2019</string>
+    <string name="get5"><a href="https://www.geeksforgeeks.org/getter-and-setter-in-python/">WEB INFO</a></string>
+    <string name="get6"><a href="https://www.youtube.com/watch?v=OtnTWta0HYs">YOUTUBE</a></string>
+    <string name="trye">EXCEPTION HANDLING</string>
+    <string name="trye1">->When an error occurs, or exception as we call it, Python will normally stop and generate an error message.\n->These exceptions can be handled using :\n\n1.The try block lets you test a block of code for errors.\n\n2.The except block lets you handle the error.\n\n3.The finally block lets you execute code, regardless of the result of the try- and except blocks.\n\n<big>PROGRAM :</big></string>
+    <string name="trye2">#try block\n#try block generates an error,\n#because x is not defined:\n\ntry:\n\t\tprint(x)\nexcept:\n\t\tprint(\"An exception occurred\")</string>
+    <string name="trye3"><big>OUTPUT :</big>\n\nAn exception occurred</string>
+    <string name="trye4">->The finally block, if specified, will be executed regardless if the try block raises an error or not.\n\n<big>PROGRAM :</big> </string>
+    <string name="trye5">try:\n\t\tprint(x)\nexcept:\n\t\tprint(\"Something went wrong\")\nfinally:\n\t\tprint(\"The \'try except\' is finished\")</string>
+    <string name="trye6"><big>OUTPUT :</big>\nSomething went wrong\nThe \'try except\' is finished</string>
+    <string name="tryy"><a href="https://www.w3schools.com/python/python_try_except.asp">WEB INFO</a></string>
+    <string name="tryyy"><a href="https://www.youtube.com/watch?v=8MYh1pHWlWc">YOUTUBE</a></string>
+    <string name="manip">MANIPULATIONS</string>
+    <string name="manip1">->Few of the manipulations in Python are done on:\n1.String\n2.Lists\n3.Dictionary etc\n\n\n<big>String Manipulation:</big>\n\n<big>PROGRAM :</big> </string>
+    <string name="manip2">str = \'WELCOME TO BVRIT\'\n# A string\n\nprint(str)\n#complete string\n\nprint(str[0])\n#Prints first character\n\nprint(str[1:5])\n#Prints chars from 3rd to 5th element\n\nprint(str[2:])\n#Prints starting from 3rd char\n\nprint(str[:4])\nprint(str[:-2])\nprint(str * 2)\n#Prints string two times\n\nprint(str + \"TEST\")\n#Prints concatenated string</string>
+    <string name="manip3"><big>OUTPUT :</big>\n\nWELCOME TO BVRIT\nWELCO\nLCOME TO BVRIT\nWELC\nWELCOME TO BVR\nWELCOME TO BVRITWELCOME TO BVRIT\nWELCOME TO BVRITTEST</string>
+    <string name="manip4"><big>List manipulation:</big>\n\n\n->Lists are mutable hence,they can be altered even after their creation.\n\n
+<big>PROGRAM :</big></string>
+    <string name="manip5">L = [\'yellow\', \'red\', \'blue\', \'green\', \'black\']\n\nprint(L[1:4])\nprint(L[2:])\nprint(L[:2])\nprint(L[-1])\nprint(L[1:-1]) </string>
+    <string name="manip6"><big>OUTPUT :</big>\n\n[\'red\', \'blue\', \'green\']\n[\'blue\', \'green\', \'black\']\n[\'yellow\', \'red\']\n[\'black\']\n[\'red\', \'blue\', \'green\']</string>
+    <string name="manip7"><big>Dictionary manipulation:</big>\n\n\n<big>PROGRAM :</big></string>
+    <string name="manip8">my_dict = {\'name\':\'Jack\', \'age\': 26}\n\n# update value\nmy_dict[\'age\'] = 27\n\n#Output: {\'age\': 27, \'name\': \'Jack\'}\nprint(my_dict)\n\n# add item\nmy_dict[\'address\'] = \'Downtown\'\nprint(my_dict)</string>
+    <string name="manip9"><big>OUTPUT :</big>{\'name\': \'Jack\', \'age\': 27}\n
+{\'name\': \'Jack\', \'age\': 27, \'address\': \'Downtown\'}</string>
+    <string name="reg">REG EX</string>
+    <string name="reg1"><big>RegEx Module</big>\n\n->Python has a built-in package called re, which can be used to work with Regular Expressions.\n\nImport the re module:\n\n\n<big>PROGRAM :</big></string>
+    <string name="reg2">import re\n\ntxt = \"The rain in Spain\"\nx = re.search(\"^The.*Spain$\", txt)\n\nif (x):\n\t\tprint(\"YES! We have a match!\")\nelse:\n\t\tprint(\"No match\")
+</string>
+    <string name="reg3"><big>OUTPUT :</big>\n\nYES! We have a match!</string>
+    <string name="reg4"><big>RegEx Functions</big>\n\n->The re module offers a set of functions that allows us to search a string for a match:\n\nfindall : Returns a list containing all matches\n\nsearch : Returns a Match object if there is a match anywhere in the string\n\nsplit : Returns a list where the string has been split at each match\n\nsub : Replaces one or many matches with a string\n\n<big>Match Object</big>\n\n->A Match Object is an object containing information about the search and the result.\n->It has three properties:\n\n1).span()\n2)string()\n3).group()</string>
+    <string name="regx"><a href="https://www.w3schools.com/python/python_regex.asp">WEB INFO</a></string>
+    <string name="regxx"><a href="https://www.youtube.com/watch?v=K8L6KVGG-7o">YOUTUBE</a></string>
+    <string name="file1">->File is a named location on disk to store related information.It is used to permanently store data in a non-volatile memory (e.g. hard disk).\n\n->Since, random access memory (RAM) is volatile which loses its data when computer is turned off, we use files for future use of the data.\n\n->When we want to read from or write to a file we need to open it first. When we are done, it needs to be closed, so that resources that are tied with the file are freed.\n\n->Hence, in Python, a file operation takes place in the following order.\n\n1.Open a file\n2.Read or write\n3.Close the file</string>
+    <string name="file">FILE HANDLING</string>
+    <string name="but01">file operations</string>
+    <string name="but1">file modes</string>
+    <string name="but2">file methods</string>
+    <string name="but3">Directory</string>
+    <string name="fileop">FILE OPERATIONS</string>
+    <string name="fileop1"><big>OPEN A FILE IN PYTHON</big>\n\n->Python has a built-in function open() to open a file.This function returns a file object, also called a handle, as it is used to read or modify the file accordingly.\n\n
+->We can specify the mode while opening a file.\n\n->In mode, we specify whether we want to read \'r\', write \'w\' or append \'a\' to the file.\n\n<big>Syntax :</big>\n\nf = open(\"test.txt\")\n# open file in current directory\n\nf = open(\"C:/Python33/README.txt\")\n# specifying full path\n\n\n<big>READING FILES IN PYTHON</big>\n\n->To read a file in Python, we must open the file in reading mode.\n\n
+->There are various methods available for this purpose.We can use the read(size) method to read in size number of data.\n\n->If size parameter is not specified,it reads and returns up to the end of the file.\n\n
+<big>Syntax :</big>\n\nf = open(\"test.txt\",\'r\',encoding = \'utf-8\')\n\nf.read(4)\n#read the first 4 data\n\'This\'\n\nf.read(4)\n#read the next 4 data\n\'is\'\n\nf.read()\n# read in the rest end of file\n\n\'my first file\nThis file\ncontains three lines\n\'\n\nf.read()\n#further reading returns empty string\n\t\t\' \'\n\n\n<big>CLOSING FILES IN PYTHON</big>\n\n->When we are done with operations to the file, we need to properly close the file.\n\n->Closing a file will free up the resources that were tied with the file and is done using Python close() method.\n\n->Python has a garbage collector to clean up unreferenced objects but, we must not rely on it to close the file.\n\n<big>Syntax :</big>\n\nf = open(\"test.txt\",encoding = \'utf-8\')\n#perform file operations\n\nf.close()\n\n\n</string>
+    <string name="fi"><a href="https://www.w3schools.com/python/python_file_handling.asp">WEB INFO</a></string>
+    <string name="fii"><a href="https://www.youtube.com/watch?v=okz3lWAFMZU">YOUTUBE</a></string>
+    <string name="fileme">FILE METHODS</string>
+    <string name="fileme1"><big>METHODS</big>\n\n<big>close()</big>\n->Close an open file.It has no effect if the file is already closed.\n\n<big>detach()</big>\n->Separate the underlying binary buffer from the TextIOBase and return it.\n\n<big>ufileno()</big>\n->Return an integer number(file descriptor) of the file.\n\n<big>flush()</big>\n->Flush the write buffer of the file stream.\n\n<big>isatty()</big>\n->Return True if the file stream is interactive.\n\n<big>read(n)</big>\n->Read atmost n characters form the file. Reads till end of file if it is negative or None.\n\n<big>readable()</big>\n->Returns True if the file stream can be read from.\n\n<big>readline(n=-1)</big>\n->Read and return one line from the file. Reads in at most n bytes if specified.\n\n<big>readlines(n=-1)</big>\n->Read and return a list of lines from the file. Reads in at most n bytes/characters if specified.\n\n<big>seekable()</big>\n->Returns True if the file stream supports random access.\n\n<big>tell()</big>\n->Returns the current file location.\n\n<big>truncate(size=None)</big>\n->Resize the file stream to size bytes. If size is not specified, resize to current location.\n\n<big>writable()</big>\n->Returns True if the file stream can be written to.\n\n<big>write(s)</big>\n->Write string s to the file and return the number of characters written.\n\n<big>writelines(lines)</big>\n->Write a list of lines to the file.
+</string>
+    <string name="fime"><a href="https://www.w3schools.com/python/python_file_handling.asp">WEB INFO</a></string>
+    <string name="fiime"><a href="https://www.youtube.com/watch?v=RD-w9QRAb0Q">YOUTUBE</a></string>
+    <string name="filemo">FILE MODES</string>
+    <string name="filemo1"><big>MODES :</big>\n\n\n<big>\t\t\'r\'</big>\n->Open a file for reading. (default)\n\n
+<big>\t\t\'w\'</big>\n->Open a file for writing. Creates a new file if it does not exist or truncates the file if it exists.\n\n
+<big>\t\t\'x\'</big>\n->Open a file for exclusive creation. If the file already exists, the operation fails.\n\n
+<big>\t\t\'a\'</big>\n->Open for appending at the end of the file without truncating it. Creates a new file if it does not exist.\n\n
+<big>\t\t\'t\'</big>\n->Open in text mode. (default)\n\n
+<big>\t\t\'b\'</big>\n->Open in binary mode.\n\n
+<big>\t\t\'+\'</big>\n->Open a file for updating (reading and writing).\n</string>
+    <string name="fiil"><a href="https://www.youtube.com/watch?v=e4VPjkd-QA4">YOUTUBE</a></string>
+    <string name="faq1"><big>What is the order of precedence in python?\n\n</big>Parentheses\nExponential\nMultiplication\nDivision\nAddition\nSubtraction\n\ni,ii,iii,iv,v,vi\nii,i,iii,iv,v,vi\nii,i,iv,iii,v,vi\ni,ii,iii,iv,vi,v\n\nExplanation: For order of precedence, just remember this PEMDAS (similar to BODMAS).\n<b>CORRECT ANSWER :</b>i,ii,iii,iv,v,vi\n\n\n
+      <big>What is the answer to this expression, 22 % 3 is?\n\n</big>a) 7\nb) 1\nc) 0\nd) 5\nExplanation: Modulus operator gives the remainder. So, 22%3 gives the remainder, that is, 1.\n<b>CORRECT ANSWER :</b>b) 1\n\n
+        <big>Mathematical operations can be performed on a string\n\n</big>a) True\nb) False\nExplanation: You can’t perform mathematical operation on string even if the string is in the form: ‘1234…’.\n<b>CORRECT ANSWER :</b>b) False\n\n
+    </string>
+    <string name="database">The Python standard for database interfaces is the Python DB-API. Most Python database interfaces adhere to this standard.\n\n
+        You can choose the right database for your application. Python Database API supports a wide range of database servers such as:\n\n<b>GadFly</b>\n<b>mSQL</b>\n<b>MySQL</b>\n<b>PostgreSQL</b>\n<b>Microsoft SQL Server 2000</b>\n<b>Informi</b>\n<b>Interbase</b>\n<b>Oracle</b>\n<b>Sybase</b>\n\n<b>Most common databases for Python web apps</b>\nPostgreSQL and MySQL are two of the most common open source databases for storing Python web applications\' data.\n\nSQLite is a database that is stored in a single file on disk.SQLite is built into Python but is only built for access by a single connection at a time.Therefore is highly recommended to not run a production web application with SQLite.\n\n
+        <big><blue><b>PostgreSQL</b></blue></big>\n\nPostgreSQL is the recommended relational database for working with Python web applications. PostgreSQL\'s feature set, active development and stability contribute to its usage as the backend for millions of applications live on the Web today.\n\n\nThe Python standard for database interfaces is the Python DB-API. Most Python database interfaces adhere to this standard.\n\n<b>The DB API provides a minimal standard for working with databases using Python structures and syntax wherever possible.This API includes the following</b>\n\nImporting the API module.\nAcquiring a connection with the database.\nIssuing SQL statements and stored procedures.\nClosing the connection.\n\n
+    </string>
+    <string name="webb">One area where Python shines is web development.Python offers many frameworks from which to choose from including:\n
+        <b>\nbottle.py</b>\n<b>Flask</b>\n<b>CherryPy</b>\n<b>Pyramid</b>\n<b>Django</b>\n<b>web2py</b>\n\nThese frameworks have been used to power some of the world\’s most popular
+ sites such as Spotify, Mozilla, Reddit, the Washington Post and Yelp.\n\n\n\t\t<big><blue><b>DJANGO</b></blue></big>\n\nDjango is a widely-used Python web application framework with a \"batteries-included\" philosophy.The principle behind batteries-included is that the common functionality for building web applications should come with the framework instead of as
+        separate libraries.\n\nFor example,<b>authentication</b>,<b>URL routing, a template engine</b>,<b>an object-relational mapper  (ORM)</b>and database schema migrations are all included with the Django framework.\n\n\t
+   <big><blue><b>CherryPy</b></blue></big>\n\nCherryPy is a web framework of Python which provides a friendly interface to the HTTP protocol for Python developers.It is also called a web application library.\n\nCherryPy uses Python\’s strengths as a dynamic language to model and bind HTTP protocol into an API.It is one of the oldest web frameworks for Python,which provides clean interface and reliable platform.
+   is a high-level, object-oriented programming language known for its simple syntax. It is consistently among the top-rated programming languages for building RESTful APIs.
+       \n\n\t\t<big><blue><b>Pyramid</b></blue></big>\n\nPyramid is a Python web framework designed to scale up with an application: it\'s simple for simple applications but can grow for big, complex applications.Among other things, Pyramid powers PyPI, the Python package index.\n
+       Cornice provides helpers to build and document REST-ish web services with Pyramid.\n\n\n\t\t<big><blue><b>Web2py</b></blue></big>\n\nweb2py is defined as a free, open-source web framework for agile development which involves database-driven web applications; it is written in Python and programmable in Python. It is a full-stack framework; it consists of all the necessary components, a developer needs to build a fully functional web application.\n\n</string>
+    <string name="datascience">Python is a popular language that is quite useful for data science because of its capacity for statistical analysis and its easy readability. Python also has various packages for machine learning, natural language processing, data visualization, data analysis, etc. that make it suited for data science.\n\n
+ <b>Some of the Python IDE\’s that are used for Data Science:</b>\n\n\t\t<big><blue><b>Jupyter Notebook</b></blue></big>\n\nJupyter Notebook is an open source IDE that is used to create Jupyter documents that can be created and shared with live codes. Also, it is a web-based interactive computational environment.The Jupyter notebook can support various languages that are popular in data science such as Python, Julia, Scala, R, etc.\n\n
+ \t\t<big><blue><b>Spyder</b></blue></big>\n\nIt is an open source IDE that was originally created and developed by Pierre Raybaut in 2009.It can be integrated with many different Python packages such as NumPy, SymPy, SciPy, pandas, IPython, etc. The Spyder editor also supports code introspection, code completion, syntax highlighting, horizontal and vertical splitting, etc.\n\n
+\t\t<big><blue><b>PyCharm</b></blue></big>\n\nPyCharm  is an IDE developed by JetBrains and created specifically for Python. It has various features such as code analysis, integrated unit tester, integrated Python debugger, support for web frameworks, etc.Pycharm is particularly useful in machine learning because it supports libraries such as Pandas, Matplotlib, Scikit-Learn, NumPy, etc.\n\n\n<big><blue><b>Libraries for Data-Science</b></blue></big>\n\n\t\t<big><blue><b>Numpy</b></blue></big>\n\nNumPy stands for Numerical Python.It provides lots of useful features for operations on n-arrays and matrices in Python.The library provides vectorization of mathematical operations on the NumPy array type, which enhance performance and speeds up the execution.\n\n
+     \t\t<big><blue><b>Pandas</b></blue></big>\n\nPandas is one of the most popular Python library for data manipulation and analysis. Pandas provide useful functions to manipulate large amount of structured data. Pandas provide easiest method to perform analysis.It provide large data structures and manipulating numerical tables and time series data.\n\n
+ \t\t<big><blue><b>Matplotlib</b></blue></big>\n\nMatplolib is another useful Python library for Data Visualization. Descriptive analysis and visualizing data is very important for any organization. Matplotlib provides various method to Visualize data in more effective way.\n\n</string>
+<string name="arrayss">To create an array of numeric values, we need to import the array module. For example:\n\nimport array as arr\na = arr.array(\'d\', [1.1, 3.5, 4.5])\n
+    print(a)\n\n<b>Output</b>\narray(\'d\', [1.1, 3.5, 4.5])\n\nHere, we created an array of float type.The letter d is a type code.This determines the type of the array during creation.\n\n<big><blue><b>ACCESSING ARRAY ELEMENTS</b></blue></big>\n\nWe use indices to access elements of an array:\n\n
+import array as arr\na = arr.array(\'i\', [2, 4, 6, 8])\nprint(\"First element:\", a[0])\nprint(\"Second element:\", a[1])\nprint(\"Last element:\", a[-1])\n\n
+    <b>Output</b>\nFirst element: 2\nSecond element: 4\nLast element: 8\n\n<big><blue><b>Note</b></blue></big>The index starts from 0 (not 1) similar to lists.\n\n<big><blue><b>SLICING ARRAYS</b></blue></big>\n\nWe can access a range of items in an array by using the slicing operator :.\n\n
+import array as arr\nnumbers_list = [2, 5, 62, 5, 42, 52, 48, 5]\nnumbers_array = arr.array(\'i\', numbers_list)\nprint(numbers_array[2:5])\n
+print(numbers_array[:-5])\nprint(numbers_array[5:])\nprint(numbers_array[:])\n<b>Output</b>\narray(\'i\', [62, 5, 42])\narray(\'i\', [2, 5, 62])\narray(\'i\', [52, 48, 5])\narray(\'i\', [2, 5, 62, 5, 42, 52, 48, 5])\n\n<big><blue><b>CHANGING AND ADDING ELEMENTS</b></blue></big>\n\n Arrays are mutable; their elements can be changed in a similar way as lists.\n\n import array as arr\n numbers = arr.array(\'i\', [1, 2, 3, 5, 7, 10])\n\n #changing first element\n numbers[0] = 0\n
+    print(numbers)\n#changing 3rd to 5th element\nnumbers[2:5]=arr.array(\'i\', [4, 6, 8])\nprint(numbers)\n\n<b>Output:</b>\narray(\'i\', [0, 2, 3, 5, 7, 10])\narray(\'i\', [0, 2, 4, 6, 8, 10])\n\<b>We can add one item to the array using the append() method, or add several items using the extend() method.</b>\n\n
+    import array as arr\nnumbers = arr.array(\'i\', [1, 2, 3])\nnumbers.append(4)\nprint(numbers)\n\n#extend() appends iterable to the end of the array\nnumbers.extend([5, 6, 7])\n
+    print(numbers)\n\n<b>Output:</b>\narray(\'i\', [1, 2, 3, 4])\narray(\'i\', [1, 2, 3, 4, 5, 6, 7])\n\n<b>We can also concatenate two arrays using + operator.</b>\nimport array as arr\nodd = arr.array(\'i\', [1, 3, 5])\neven = arr.array(\'i\', [2, 4, 6])\nnumbers = arr.array(\'i\')\nnumbers = odd + even\n
+    print(numbers)\n\n<b>Output:</b>\narray(\'i\', [1, 3, 5, 2, 4, 6])\n\n<big><blue><b>REMOVING ARRAY ELEMENTS</b></blue></big>\n\nWe can delete one or more items from an array using Python\'s del statement.\n\nimport array as arr\n
+    number = arr.array(\'i\', [1, 2, 3, 3, 4])\ndel number[2]\nprint(number)\ndel number\nprint(number)\n\n<b>Output:</b>\narray(\'i\', [1, 2, 3, 4])\nTraceback (most recent call last):\n\t\tFile \"(str)\", line 9, in (module)\n
+    \t\t\tprint(number)\nNameError: name \'number\' is not defined\n\n<b>We can use the remove() method to remove the given item, and pop() method to remove an item at the given index.</b>\n\n
+    import array as arr\nnumbers = arr.array(\'i\', [10, 11, 12, 12, 13])\nnumbers.remove(12)\nprint(numbers)\nprint(numbers.pop(2)\nprint(numbers)\n\n<b>Output:</b>\narray(\'i\', [10, 11, 12, 13])\n12\narray(\'i\', [10, 11, 13])\n\n
+</string>
+    <string name="webarrays"><a href="https://www.techbeamers.com/python-arrays">Web INFO</a></string>
+    <string name="youarray"><a href="https://www.youtube.com/watch?v=6a39OjkCN5I">YOUTUBE</a></string>
+    <string name="compiler"><a href="https://www.programiz.com/python-programming/online-compiler/">COMPILE</a></string>
+    <string name="faqq1"><b>\nIs Python case sensitive when dealing with identifiers?</b>\na)yes<b>\t\t(CORRECT)</b>\nb) no\nc) machine dependent\nd) none of the mentioned\nExplanation: Case is always significant.\n
+</string>
+    <string name="faqq2">\n<b>Which of the following is an invalid variable?</b>\na) my_string_1\nb) 1st_string\t\t<b>(CORRECT)</b>\nc) foo\nd) _\nExplanation: Variable names should not start with a number.\n
+</string>
+    <string name="faq3">\n<b>All keywords in Python are in _________</b>\na) lower case\nb) UPPER CASE\nc) Capitalized\nd) None of the mentioned\t\t<b>(CORRECT)</b>\n
+</string>
+    <string name="faq4">\n<b>Which of the following is an invalid statement?</b>\na) abc = 1,000,000\nb) a b c = 1000 2000 3000\t\t<b>(CORRECT)</b>\nc) a,b,c = 1000, 2000, 3000\nd) a_b_c = 1,000,000\n</string>
+<string name="faq5">\n<b>Which of the following cannot be a variable?</b>\na) __init__\nb)in\t\t<b>(CORRECT)</b>\nc) it\nd) on\nExplanation: in is a keyword.\n</string>
+<string name="faq6">.\n<b> Which of the following results in a SyntaxError?</b>\na) \'\”Once upon a time…\”, she said.\’\nb) \“He said, \‘Yes!\'\”\nc) 3\’ \t\t<b>(CORRECT)</b>\nd) ”’That’s okay”’\nExplanation: Carefully look at the colons.\n
+</string>
+<string name="faq7">\n<b>Select all options that print.</b>\n<b>hello-how-are-you</b>\na) print(\‘hello\’, \‘how\’, \‘are\’, \‘you\’)\nb) print(\‘hello\’, \‘how\’, \‘are\’, \‘you\’ + \‘-\‘ * 4)\nc) print(\‘hello-\‘ + \‘how-are-you\’)\t\t<b>(CORRECT)</b>\nd) print(\‘hello\’ + \‘-\‘ + \‘how\’ + \‘-\‘ +\‘are\’ + \‘you\’)\n</string>
+<string name="faq8">\n<b>What is the return value of trunc()?</b>\na) int)\t\t<b>(CORRECT)</b>\nb) bool\nc) float\nd) None\n</string>
+    <string name="faq9">\n<b>What is the order of precedence in python?</b>\ni) Parentheses\nii) Exponential\niii) Multiplication\niv) Division\nv) Addition\nvi) Subtraction\na) i,ii,iii,iv,v,vi\t\t<b>(CORRECT)</b>\nb) ii,i,iii,iv,v,vi\nc) ii,i,iv,iii,v,vi\nd) i,ii,iii,iv,vi,v\n</string>
+<string name="faq10">\n<b>What is the output of this expression, 3*1**3?</b>\na) 27\nb) 9\nc) 3<b>(CORRECT)</b>\nd) 1\n</string>
+<string name="faq11">\n<b>Which of the following operators has its associativity from right to left?</b>\na) +\nb) //\nc) %\nd) **\n<b>(CORRECT)</b>\n</string>
+    <string name="faq12">\n<b>The expression 2**2**3 is evaluates as: (2**2)**3.</b>\na) True\nb) False\n\t\t<b>(CORRECT)</b>\nExplanation: The value of the expression (2**2)**3 = 4**3 = 64.\n
+</string>
+    <string name="faq13">\n<b>What will be the output of the following Python code?</b>\n\tx = [\'ab\',\'cd\']\n\t\tfor i in x:\n\t\t\t\ti.upper()\nprint(x)\na) [‘ab’, ‘cd’]\t\t<b>(CORRECT)</b>\nb) [\‘AB\’, \‘CD\’]\nc) [None, None]\nd) none of the mentioned\n</string>
+<string name="faq14">. \n<b>What will be the output of the following Python code?</b>\nx = [\'ab\', \'cd\']\nfor i in x:\n\t\tx.append(i.upper())\nprint(x)\na) [\‘AB\’, \‘CD\’]\nb) [\‘ab\’, \‘cd\’, \‘AB\’, \‘CD\’]\nc) [\‘ab\’, \‘cd\’]\nd) none of the mentioned\n]\t\t<b>(CORRECT)</b>\nExplanation: The loop does not terminate as new elements are being added to the list in each iteration.\n</string>
+<string name="faq15">\n<b>What will be the output of the following Python code?</b>\ni = 5\nwhile True:\n\t\tif i%0011 == 0:\n\t\t\t\tbreak\n\t\tprint(i)\n\t\ti += 1\na) 5 6 7 8 9 10\nb) 5 6 7 8\n\t\t<b>(CORRECT)</b>\nc) 5 6\nd) error\nExplanation: 0011 is an octal number.\n</string>
+    <string name="datasciencelink"><a href="https://www.edureka.co/blog/learn-python-for-data-science">GUIDE FOR DATASCIENCE</a></string>
+    <string name="webdevlink"><a href="https://www.educative.io/blog/web-development-in-python">GUIDE FOR WEB</a></string>
+    <string name="sqllink"><a href="https://www.tutorialspoint.com/python_network_programming/python_databases_and_sql.htm">GUIDE FOR DATABASE</a></string>
+</resources>

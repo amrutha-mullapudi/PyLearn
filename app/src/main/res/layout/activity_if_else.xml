@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".if_else">
+
+    <TextView
+        android:id="@+id/ifs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:background="@drawable/edittext"
+        android:layout_marginTop="20sp"
+        android:text="@string/ifs"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:textColor="#000000"
+        />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/ifs"
+        >
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+            <TextView
+                android:id="@+id/ifb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20sp"
+                android:text="@string/ifb"
+                android:textSize="20sp"
+
+                android:typeface="serif"
+                android:textColor="#000000"
+                />
+            <TextView
+                android:id="@+id/ifc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10sp"
+                android:text="@string/ifc"
+                android:textSize="20sp"
+
+                android:typeface="serif"
+                android:textColor="#000000"
+                android:layout_below="@+id/ifb"/>
+            <TextView
+                android:id="@+id/ifd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20sp"
+                android:text="@string/ifd"
+                android:textSize="20sp"
+
+                android:typeface="serif"
+                android:textColor="#000000"
+                android:layout_below="@+id/ifc"/>
+            <LinearLayout
+                android:id="@id/layifee"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_below="@+id/ifd" >
+
+                <Button
+                    android:id="@+id/button42if"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5sp"
+                    android:layout_marginStart="50dp"
+                    android:background="@drawable/copyyy"
+                    android:textAlignment="center"
+                    android:textColor="#ffe8ed"
+                    android:textSize="13sp"
+                    android:layout_weight="1"/>
+
+                <Button
+                    android:id="@+id/button41if"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5sp"
+                    android:background="@drawable/tryyy"
+                    android:onClick="browser"
+                    android:layout_marginStart="80dp"
+                    android:textAlignment="center"
+                    android:textColor="#ffe8ed"
+                    android:textSize="13sp"
+                    android:layout_weight="1"/>
+            </LinearLayout>
+            <TextView
+                android:id="@+id/ifee"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20sp"
+                android:text="@string/ifee"
+                android:textSize="20sp"
+                android:typeface="serif"
+                android:textColor="#000000"
+                android:layout_below="@+id/layifee"/>
+            <TextView
+                android:id="@+id/iff"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10sp"
+                android:text="@string/iff"
+                android:textSize="20sp"
+
+                android:typeface="serif"
+                android:textColor="#000000"
+                android:layout_below="@+id/ifee"/>
+            <TextView
+                android:id="@+id/ifg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20sp"
+                android:text="@string/ifg"
+                android:textSize="20sp"
+
+                android:typeface="serif"
+                android:textColor="#000000"
+                android:layout_below="@+id/iff"/>
+            <LinearLayout
+                android:id="@id/layiff"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_below="@+id/ifg" >
+
+                <Button
+                    android:id="@+id/button42if1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5sp"
+                    android:layout_marginStart="50dp"
+                    android:background="@drawable/copyyy"
+                    android:textAlignment="center"
+                    android:textColor="#ffe8ed"
+                    android:textSize="13sp"
+                    android:layout_weight="1"/>
+
+                <Button
+                    android:id="@+id/button41if1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5sp"
+                    android:background="@drawable/tryyy"
+                    android:onClick="browser"
+                    android:layout_marginStart="80dp"
+                    android:textAlignment="center"
+                    android:textColor="#ffe8ed"
+                    android:textSize="13sp"
+                    android:layout_weight="1"/>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/iffh"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20sp"
+                android:text="@string/iffh"
+                android:textSize="20sp"
+                android:typeface="serif"
+                android:textColor="#000000"
+                android:layout_below="@+id/layiff" />
+            <TextView
+                android:id="@+id/iffi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:background="@drawable/edittext"
+                android:layout_marginTop="20sp"
+                android:text="@string/iffi"
+                android:textSize="30sp"
+
+                android:typeface="serif"
+                android:textColor="#357DE8"
+                android:layout_below="@+id/iffh" />
+            <TextView
+                android:id="@+id/iffj"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:background="@drawable/edittext"
+
+                android:text="@string/iffj"
+                android:textSize="30sp"
+
+                android:typeface="serif"
+                android:textColor="#357DE8"
+                android:layout_below="@+id/iffi" />
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

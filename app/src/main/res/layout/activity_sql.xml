@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".sql">
+
+    <TextView
+        android:id="@+id/sql1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:text="Database for Python"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:background="@drawable/edittext"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/sql1" >
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+            <TextView
+                android:id="@+id/sql2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20sp"
+                android:text="@string/database"
+                android:textSize="20sp"
+                android:typeface="serif"
+                android:textColor="#000000"/>
+            <TextView
+                android:id="@+id/sqll6"
+                android:layout_width="match_parent"
+                android:layout_height="35sp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:background="@drawable/edittext"
+                android:layout_marginTop="20sp"
+                android:text="@string/sqllink"
+                android:textSize="28sp"
+
+                android:typeface="serif"
+                android:textColor="#357DE8"
+                android:layout_below="@+id/sql2"
+                />
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>
+

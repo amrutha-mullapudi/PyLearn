@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".filehand">
+
+    <TextView
+        android:id="@+id/trye"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:background="@drawable/edittext"
+
+        android:text="@string/file"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:textColor="#000000"
+        />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/trye"
+        >
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+
+            <TextView
+                android:id="@+id/trye1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20sp"
+                android:text="@string/file1"
+                android:textSize="20sp"
+                android:typeface="serif"
+                android:textColor="#000000"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:background="@drawable/linear"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_below="@+id/trye1"
+                android:padding="10dp" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:id="@+id/OPERATIONS"
+                android:text="Operations"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textColor="#ffffff"
+                android:typeface="serif"
+                android:backgroundTint="#156EAC"
+                android:textSize="45sp"
+                android:textStyle="bold"
+                android:background="@drawable/edittext"
+                />
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:rowCount="2"
+                android:columnCount="2"
+                android:columnOrderPreserved="false"
+                tools:targetApi="ice_cream_sandwich">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_margin="8dp"
+                    android:layout_width="100dp"
+                    android:layout_height="160dp"
+                    android:layout_row="0"
+                    android:layout_columnWeight="1"
+                    android:layout_column="0"
+                    android:layout_rowWeight="1"
+                    android:layout_gravity="fill"
+                    app:cardCornerRadius="15dp"
+                    app:cardElevation="8dp"
+                    android:backgroundTint="#A2D2E8"
+                    tools:targetApi="lollipop" >
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:gravity="center"
+                        android:layout_gravity="center_horizontal|center_vertical">
+
+                        <TextView
+                            android:id="@+id/MODES"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/edittext"
+                            android:backgroundTint="#A2D2E8"
+                            android:gravity="center"
+                            android:text="Modes"
+                            android:typeface="serif"
+                            android:textSize="25sp"
+                            android:textStyle="bold"
+                            />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_margin="8dp"
+                    android:layout_width="100dp"
+                    android:layout_height="150dp"
+                    android:layout_row="0"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    android:backgroundTint="#41A2FF"
+                    android:layout_gravity="fill"
+                    app:cardCornerRadius="15dp"
+                    app:cardElevation="8dp"
+                    tools:targetApi="lollipop">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:gravity="center"
+                        android:layout_gravity="center_horizontal|center_vertical">
+
+                        <TextView
+                            android:id="@+id/METHODS"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/edittext"
+                            android:backgroundTint="#41A2FF"
+                            android:gravity="center"
+                            android:text="Methods"
+                            android:textSize="25sp"
+                            android:textStyle="bold"
+                            android:typeface="serif"
+                            android:textColor="#ffffff"
+                            android:layout_gravity="right"
+                            android:layout_marginStart="10sp"
+                            android:layout_marginLeft="10sp" />/>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+            </GridLayout>
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

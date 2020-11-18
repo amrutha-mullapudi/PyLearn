@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".inbuilt">
+    <TextView
+        android:id="@+id/inbuilt_struct"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:layout_marginTop="20sp"
+        android:text="Inbuilt-DataStructures"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:typeface="serif"
+        android:textColor="#000000"
+        android:background="@drawable/edittext"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/inbuilt_struct"
+        android:layout_marginBottom="20sp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@drawable/linear"
+            android:layout_below="@+id/basics"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:padding="10dp" >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:id="@+id/list2"
+                android:text="List"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textColor="#ffffff"
+                android:typeface="serif"
+                android:backgroundTint="#41A2FF"
+                android:textSize="45sp"
+                android:textStyle="bold"
+                android:background="@drawable/edittext"
+                />
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:rowCount="2"
+                android:columnCount="2"
+                android:columnOrderPreserved="false"
+                tools:targetApi="ice_cream_sandwich">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_margin="8dp"
+                    android:layout_width="100dp"
+                    android:layout_height="160dp"
+                    android:layout_row="0"
+                    android:layout_columnWeight="1"
+                    android:layout_column="0"
+                    android:layout_rowWeight="1"
+                    android:layout_gravity="fill"
+                    app:cardCornerRadius="15dp"
+                    app:cardElevation="8dp"
+                    android:backgroundTint="#A2D2E8"
+                    tools:targetApi="lollipop" >
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:gravity="center"
+                        android:layout_gravity="center_horizontal|center_vertical">
+
+                        <TextView
+                            android:id="@+id/Tuple2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/edittext"
+                            android:backgroundTint="#A2D2E8"
+                            android:gravity="center"
+                            android:text="Tuples"
+                            android:typeface="serif"
+                            android:textSize="30sp"
+                            android:textStyle="bold"
+                            />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_margin="8dp"
+                    android:layout_width="100dp"
+                    android:layout_height="150dp"
+                    android:layout_row="0"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    android:backgroundTint="#156EAC"
+                    android:layout_gravity="fill"
+                    app:cardCornerRadius="15dp"
+                    app:cardElevation="8dp"
+                    tools:targetApi="lollipop">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:gravity="center"
+                        android:layout_gravity="center_horizontal|center_vertical">
+
+                        <TextView
+                            android:id="@+id/set2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/edittext"
+                            android:backgroundTint="#156EAC"
+                            android:gravity="center"
+                            android:text="Sets"
+                            android:textSize="30sp"
+                            android:textStyle="bold"
+                            android:typeface="serif"
+                            android:textColor="#A2D2E8"
+                            android:layout_gravity="right"
+                            android:layout_marginStart="10sp"
+                            android:layout_marginLeft="10sp" />/>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+            </GridLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:id="@+id/dict2"
+                android:text="Dictionary"
+                android:backgroundTint="#DEE5F3"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:typeface="serif"
+                android:layout_below="@+id/linear2"
+                android:background="@drawable/edittext"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:id="@+id/manipulate2"
+                android:text="Manipulations"
+                android:backgroundTint="#3288AF"
+                android:textSize="30sp"
+                android:layout_marginTop="10sp"
+                android:layout_marginBottom="20sp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:typeface="serif"
+                android:layout_below="@+id/dict2"
+                android:background="@drawable/edittext"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</RelativeLayout>

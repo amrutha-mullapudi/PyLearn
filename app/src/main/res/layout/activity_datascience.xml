@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".datascience">
+
+    <TextView
+        android:id="@+id/datas1"
+        android:layout_width="match_parent"
+        android:layout_height="60sp"
+        android:layout_marginTop="20sp"
+        android:text="Data Science"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:typeface="serif"
+        android:textColor="#000000"
+        android:background="@drawable/edittext"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/datas1" >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@drawable/linear"
+            android:padding="5dp" >
+            <TextView
+                android:id="@+id/datatypeb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/datascience"
+                android:textSize="20sp"
+                android:layout_marginTop="30sp"
+                android:typeface="serif"
+                android:textColor="#000000"
+                />
+            <TextView
+                android:id="@+id/datascie6"
+                android:layout_width="match_parent"
+                android:layout_height="35sp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:background="@drawable/edittext"
+                android:layout_marginTop="20sp"
+                android:text="@string/datasciencelink"
+                android:textSize="25sp"
+
+                android:typeface="serif"
+                android:textColor="#357DE8"
+
+                 />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>
